@@ -1,0 +1,3033 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (Vidya Srinivasa Kesarla)
+/Author (Vidya Srinivasa Kesarla)
+/Copyright (\251 Vidya Srinivasa Kesarla\056 All rights reserved\056)
+/Title (\050anonymous\051)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 14
+/Kids [ 4 0 R 13 0 R 16 0 R 19 0 R 22 0 R 25 0 R 28 0 R 31 0 R 34 0 R 37 0 R 40 0 R 43 0 R 46 0 R 49 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3851
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 724.4 cm
+q
+BT 1 0 0 1 0 2 Tm 33.96 0 Td 22 TL /F2 20 Tf 0 0 0 rg (DFS, BFS & Recursion \227 Complete Study Guide) Tj T* -33.96 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 698.4 cm
+q
+.501961 .501961 .501961 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Transcribed from handwritten/annotated notes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 686.4 cm
+Q
+q
+1 0 0 1 42 650.4 cm
+q
+BT 1 0 0 1 0 7 Tm 22 TL /F2 15 Tf .101961 .101961 .180392 rg (DFS & BFS \227 Complete Guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 622.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (1. What is it?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 588.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (DFS \(Depth-First Search\) and BFS \(Breadth-First Search\) are the two fundamental traversal techniques for graphs and) Tj T* (trees.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 554.4 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 ) Tj /F2 10 Tf (DFS) Tj /F1 10 Tf ( goes as deep as possible down one path before backtracking \227 implemented via recursion or an explicit) Tj T* (stack.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 523.4 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 ) Tj /F2 10 Tf (BFS) Tj /F1 10 Tf ( explores level by level, visiting all neighbors at the current distance before going further \227 implemented via a) Tj T* (queue.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 492.4 cm
+q
+BT 1 0 0 1 0 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (Both visit every reachable node exactly once \(with a visited set\), but the ) Tj /F2 10 Tf (order) Tj /F1 10 Tf ( and the ) Tj /F2 10 Tf (guarantees) Tj /F1 10 Tf ( differ, which is what) Tj T* (determines which one you need.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 464.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (2. Why is it used?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 444.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Systematic way to explore all nodes/paths in a graph or tree without missing or repeating any) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 427.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 BFS gives the ) Tj /F2 10 Tf (shortest path in an unweighted graph) Tj /F1 10 Tf ( for free, because it explores in increasing distance order) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 396.4 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 DFS naturally expresses ) Tj /F2 10 Tf (exhaustive exploration) Tj /F1 10 Tf ( \(all paths, all combinations, backtracking\) and ) Tj /F2 10 Tf (structural) Tj T* (properties) Tj /F1 10 Tf ( \(cycles, connectivity, topological order\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 379.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Both run in O\(V + E\) \227 visiting every vertex and edge once \227 which is optimal for graph traversal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 351.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (3. Where is it used?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 303.4 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL /F2 10 Tf 0 0 0 rg (DFS:) Tj /F1 10 Tf ( Path existence / all paths between two nodes \177 Cycle detection \(directed and undirected graphs\) \177 Topological) Tj T* (sort \177 Connected components / islands \(grid flood fill\) \177 Backtracking: permutations, combinations, subsets, N-Queens,) Tj T* (Sudoku \177 Tree traversal \(preorder, inorder, postorder\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 255.4 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL /F2 10 Tf 0 0 0 rg (BFS:) Tj /F1 10 Tf ( Shortest path in unweighted graph / grid \177 Level-order tree traversal \177 Minimum number of steps/moves \(word) Tj T* (ladder, sliding puzzle\) \177 Multi-source spreading \(rotting oranges, walls and gates\) \177 Bipartite graph checking \(via) Tj T* (2-coloring while traversing levels\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Symbol
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 15 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 6772
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 728.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (4. How to identify a DFS vs BFS problem \(pattern triggers\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36 406.3 cm
+q
+.168627 .176471 .258824 rg
+n 0 316.1 540 -22.9 re f*
+1 1 1 rg
+n 0 293.2 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 257.8 540 -35.4 re f*
+1 1 1 rg
+n 0 222.4 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 187 540 -35.4 re f*
+1 1 1 rg
+n 0 151.6 540 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 128.9 540 -35.4 re f*
+1 1 1 rg
+n 0 93.5 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 58.1 540 -35.4 re f*
+1 1 1 rg
+n 0 22.7 540 -22.7 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 298.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Signal in the problem statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 298.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (What it suggests) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 262.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL -0.072 Tw ("shortest path", "minimum steps/moves", "fewest) Tj T* 0 Tw (number of...") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 275.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (BFS \227 guarantees shortest path in unweighted graphs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 227.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("all paths", "does a path exist", "explore every) Tj T* (possibility") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 240.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (DFS \227 exhaustive exploration) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 192 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL -0.041143 Tw ("level order", "print level by level", "distance from) Tj T* 0 Tw (source") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 204.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (BFS \227 processes nodes in distance order) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 156.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("connected components", "number of islands",) Tj T* ("flood fill") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 169.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Either works \227 DFS is usually simpler to write \(recursion\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 133.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("cycle detection") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 133.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (DFS \227 track recursion stack \(directed\) or parent \(undirected\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 98.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("topological order", "course schedule", "build) Tj T* (order") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 111.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (DFS \(postorder + reverse\) or BFS \(Kahn's algorithm\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 63.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("generate all) Tj T* (subsets/permutations/combinations") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 63.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (DFS \(backtracking\) \227 BFS doesn't naturally express choice-branching) Tj T* (with undo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("nearest", "closest", "minimum time to reach all) Tj T* (nodes") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (BFS, often multi-source) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Weighted graph + "shortest path") Tj T* ET
+Q
+Q
+q
+1 0 0 1 222 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Neither plain DFS nor BFS \227 needs Dijkstra/Bellman-Ford instead) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 316.1 m 540 316.1 l S
+n 0 0 m 540 0 l S
+n 0 0 m 0 316.1 l S
+n 540 0 m 540 316.1 l S
+n 0 293.2 m 540 293.2 l S
+n 0 257.8 m 540 257.8 l S
+n 0 222.4 m 540 222.4 l S
+n 0 187 m 540 187 l S
+n 0 151.6 m 540 151.6 l S
+n 0 128.9 m 540 128.9 l S
+n 0 93.5 m 540 93.5 l S
+n 0 58.1 m 540 58.1 l S
+n 0 22.7 m 540 22.7 l S
+n 216 0 m 216 316.1 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 398.3 cm
+Q
+q
+1 0 0 1 42 370.3 cm
+q
+BT 1 0 0 1 0 16.5 Tm -0.1 Tw 13 TL /F2 9.5 Tf .2 .2 .2 rg (Paraphrase test:) Tj /F1 9.5 Tf ( If the problem asks \223what is the minimum distance/steps\224 in an unweighted setting \227 BFS. If it asks \223does X) Tj T* 0 Tw (exist\224, \223find all X\224, or \223can you reach\224 without needing the shortest route \227 DFS.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 342.3 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (5. Can you tell from constraints alone?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 322.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Yes, partially:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 288.3 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 Grid/graph size up to 10) Tj /F1 8 Tf 5 Ts (4) Tj /F1 10 Tf 0 Ts (-10) Tj /F1 8 Tf 5 Ts (6) Tj /F1 10 Tf 0 Ts ( nodes/cells with expected O\(V+E\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( either DFS or BFS traversal is intended; the) Tj T* (choice between them comes from what's being asked \(shortest vs exhaustive\), not from constraints.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 257.3 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 If recursion depth could exceed ~10) Tj /F1 8 Tf 5 Ts (4) Tj /F1 10 Tf 0 Ts ( \(deep/skewed trees, long chains\), a recursive DFS risks stack overflow in) Tj T* (Java \227 prefer iterative DFS with an explicit stack, or use BFS instead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 226.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 18 Tm /F1 10 Tf 14 TL (\177 If the problem says \223minimum\224 or \223shortest\224 AND edges are unweighted \(all cost 1\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( BFS, not DFS, even though) Tj T* (DFS could technically find a path \227 it won't guarantee the shortest one without extra bookkeeping.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 195.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 18 Tm /F1 10 Tf 14 TL (\177 If weights are involved despite looking like a shortest-path problem ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( neither DFS nor BFS is sufficient; that's a) Tj T* (Dijkstra/Bellman-Ford signal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 167.3 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (6. Intuition / Rationale) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 119.3 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL /F2 10 Tf 0 0 0 rg (Why BFS finds the shortest path:) Tj /F1 10 Tf ( BFS processes nodes in strict order of distance from the source \227 it fully exhausts) Tj T* (all nodes at distance d before touching any node at distance d+1. The first time you reach the target, it's guaranteed to) Tj T* (be via the shortest possible number of edges, because no longer path could have reached it first.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 3352
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 690.4 cm
+q
+BT 1 0 0 1 0 46 Tm -0.038 Tw 14 TL /F2 10 Tf 0 0 0 rg (Why DFS is natural for exhaustive search:) Tj /F1 10 Tf ( DFS's call stack IS the current path being explored. This makes it trivial to) Tj T* 0 Tw (backtrack \(undo the last choice and try another\) \227 which is exactly what problems like permutations, N-Queens, and) Tj T* (path-finding-with-constraints need. BFS's queue doesn't preserve \223the current path\224 in the same accessible way,) Tj T* (making backtracking awkward.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 656.4 cm
+q
+BT 1 0 0 1 0 18 Tm 14 TL /F2 10 Tf 0 0 0 rg (Why both need a visited set:) Tj /F1 10 Tf ( without it, cyclic graphs cause infinite loops \227 you'd keep re-visiting the same nodes) Tj T* (forever. Trees don't strictly need one \(no cycles\), but graphs always do.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 628.4 cm
+q
+BT 1 0 0 1 0 5.5 Tm 18 TL /F2 12.5 Tf .086275 .129412 .243137 rg (7. Time & Space Complexity \(generic\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 608.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 ) Tj /F2 10 Tf (Time:) Tj /F1 10 Tf ( O\(V + E\) for both \227 every vertex visited once, every edge examined once) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 591.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 ) Tj /F2 10 Tf (Space:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 560.4 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg ( ) Tj ( ) Tj ( ) Tj ( ) Tj /F4 10 Tf 14 TL (n) Tj /F1 10 Tf 14 TL ( DFS: O\(V\) for the visited set + O\(H\) for the recursion/explicit stack, where H is the max depth \(worst case O\(V\)) Tj T* (for a skewed graph\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 543.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg ( ) Tj ( ) Tj ( ) Tj ( ) Tj /F4 10 Tf 14 TL (n) Tj /F1 10 Tf 14 TL ( BFS: O\(V\) for the visited set + O\(W\) for the queue, where W is the max width of a level \(worst case O\(V\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 515.4 cm
+q
+BT 1 0 0 1 0 5.5 Tm 18 TL /F2 12.5 Tf .086275 .129412 .243137 rg (8. Types of DFS & BFS \(with Java templates\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 487.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type A \227 Recursive DFS \(graph/tree traversal\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 467.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: path existence, connected components, general traversal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 366.9 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 86.3 Tm /F5 8.2 Tf 10.5 TL (public void dfs\(int node, Map<Integer, List<Integer>> graph, Set<Integer> visited\) {) Tj T* (    if \(visited.contains\(node\)\) return;) Tj T* (    visited.add\(node\);) Tj T* (    // process\(node\) here) Tj T*  T* (    for \(int neighbor : graph.getOrDefault\(node, new ArrayList<>\(\)\)\) {) Tj T* (        dfs\(neighbor, graph, visited\);) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 338.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type B \227 Iterative DFS \(explicit stack, avoids recursion depth limits\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 318.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: same as Type A, but safe for very deep/large graphs.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 2771
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 578.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 159.8 Tm /F5 8.2 Tf 10.5 TL (public void dfsIterative\(int start, Map<Integer, List<Integer>> graph\) {) Tj T* (    Set<Integer> visited = new HashSet<>\(\);) Tj T* (    Deque<Integer> stack = new ArrayDeque<>\(\);) Tj T* (    stack.push\(start\);) Tj T*  T* (    while \(!stack.isEmpty\(\)\) {) Tj T* (        int node = stack.pop\(\);) Tj T* (        if \(visited.contains\(node\)\) continue;) Tj T* (        visited.add\(node\);) Tj T* (        // process\(node\) here) Tj T*  T* (        for \(int neighbor : graph.getOrDefault\(node, new ArrayList<>\(\)\)\) {) Tj T* (            if \(!visited.contains\(neighbor\)\) stack.push\(neighbor\);) Tj T* (        }) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 550.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type C \227 BFS \(shortest path / level order\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 530.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: shortest path in unweighted graph, level-order traversal, min steps.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 272.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 243.8 Tm /F5 8.2 Tf 10.5 TL (public int bfsShortestPath\(int start, int target, Map<Integer, List<Integer>> graph\) {) Tj T* (    Set<Integer> visited = new HashSet<>\(\);) Tj T* (    Queue<Integer> queue = new LinkedList<>\(\);) Tj T* (    queue.offer\(start\);) Tj T* (    visited.add\(start\);) Tj T* (    int steps = 0;) Tj T*  T* (    while \(!queue.isEmpty\(\)\) {) Tj T* (        int size = queue.size\(\); // process one full level at a time) Tj T* (        for \(int i = 0; i < size; i++\) {) Tj T* (            int node = queue.poll\(\);) Tj T* (            if \(node == target\) return steps;) Tj T*  T* (            for \(int neighbor : graph.getOrDefault\(node, new ArrayList<>\(\)\)\) {) Tj T* (                if \(!visited.contains\(neighbor\)\) {) Tj T* (                    visited.add\(neighbor\);) Tj T* (                    queue.offer\(neighbor\);) Tj T* (                }) Tj T* (            }) Tj T* (        }) Tj T* (        steps++; // moved to the next level/distance) Tj T* (    }) Tj T* (    return -1; // target not reachable) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 244.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type D \227 Grid DFS \(flood fill / connected regions\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 224.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: number of islands, flood fill, max area of island.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/Contents 23 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 24 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 1716
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 473.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 264.8 Tm /F5 8.2 Tf 10.5 TL (public int numIslands\(char[][] grid\) {) Tj T* (    int rows = grid.length, cols = grid[0].length;) Tj T* (    boolean[][] visited = new boolean[rows][cols];) Tj T* (    int count = 0;) Tj T*  T* (    for \(int r = 0; r < rows; r++\) {) Tj T* (        for \(int c = 0; c < cols; c++\) {) Tj T* (            if \(grid[r][c] == '1' && !visited[r][c]\) {) Tj T* (                dfsGrid\(grid, visited, r, c\);) Tj T* (                count++; // found a new island, explore all of it) Tj T* (            }) Tj T* (        }) Tj T* (    }) Tj T* (    return count;) Tj T* (}) Tj T*  T* (private void dfsGrid\(char[][] grid, boolean[][] visited, int r, int c\) {) Tj T* (    if \(r < 0 || r >= grid.length || c < 0 || c >= grid[0].length\) return;) Tj T* (    if \(visited[r][c] || grid[r][c] == '0'\) return;) Tj T* (    visited[r][c] = true;) Tj T*  T* (    dfsGrid\(grid, visited, r + 1, c\);) Tj T* (    dfsGrid\(grid, visited, r - 1, c\);) Tj T* (    dfsGrid\(grid, visited, r, c + 1\);) Tj T* (    dfsGrid\(grid, visited, r, c - 1\);) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 445.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type E \227 Multi-Source BFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 425.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: rotting oranges, walls and gates, spreading from multiple starting points simultaneously.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+24 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 27 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 1996
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 420.9 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 317.3 Tm /F5 8.2 Tf 10.5 TL (public int multiSourceBFS\(int[][] grid\) {) Tj T* (    int rows = grid.length, cols = grid[0].length;) Tj T* (    Queue<int[]> queue = new LinkedList<>\(\);) Tj T* (    int freshCount = 0;) Tj T*  T* (    for \(int r = 0; r < rows; r++\) {) Tj T* (        for \(int c = 0; c < cols; c++\) {) Tj T* (            if \(grid[r][c] == 2\) queue.offer\(new int[]{r, c}\); // seed ALL sources at once) Tj T* (            else if \(grid[r][c] == 1\) freshCount++;) Tj T* (        }) Tj T* (    }) Tj T*  T* (    int minutes = 0;) Tj T* (    int[][] dirs = {{1,0},{-1,0},{0,1},{0,-1}};) Tj T* (    while \(!queue.isEmpty\(\) && freshCount > 0\) {) Tj T* (        int size = queue.size\(\);) Tj T* (        for \(int i = 0; i < size; i++\) {) Tj T* (            int[] cell = queue.poll\(\);) Tj T* (            for \(int[] d : dirs\) {) Tj T* (                int nr = cell[0] + d[0], nc = cell[1] + d[1];) Tj T* (                if \(nr >= 0 && nr < rows && nc >= 0 && nc < cols && grid[nr][nc] == 1\) {) Tj T* (                    grid[nr][nc] = 2;) Tj T* (                    freshCount--;) Tj T* (                    queue.offer\(new int[]{nr, nc}\);) Tj T* (                }) Tj T* (            }) Tj T* (        }) Tj T* (        minutes++;) Tj T* (    }) Tj T* (    return freshCount == 0 ? minutes : -1; // -1 if some fresh cells unreachable) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 392.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type F \227 Backtracking DFS \(explicit undo\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 372.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: permutations, combinations, subsets, N-Queens.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+27 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+28 0 obj
+<<
+/Contents 29 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 30 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+29 0 obj
+<<
+/Length 6289
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 515.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 222.8 Tm /F5 8.2 Tf 10.5 TL (public List<List<Integer>> permute\(int[] nums\) {) Tj T* (    List<List<Integer>> result = new ArrayList<>\(\);) Tj T* (    backtrack\(nums, new ArrayList<>\(\), new boolean[nums.length], result\);) Tj T* (    return result;) Tj T* (}) Tj T*  T* (private void backtrack\(int[] nums, List<Integer> current, boolean[] used, List<List<Integer>> result\) {) Tj T* (    if \(current.size\(\) == nums.length\) {) Tj T* (        result.add\(new ArrayList<>\(current\)\); // copy - current will keep mutating) Tj T* (        return;) Tj T* (    }) Tj T* (    for \(int i = 0; i < nums.length; i++\) {) Tj T* (        if \(used[i]\) continue;) Tj T* (        used[i] = true;) Tj T* (        current.add\(nums[i]\);) Tj T*  T* (        backtrack\(nums, current, used, result\); // explore) Tj T*  T* (        current.remove\(current.size\(\) - 1\); // undo \(the "back" in backtracking\)) Tj T* (        used[i] = false;) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 487.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (9. Comparison of the patterns) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36 296.9 cm
+q
+.168627 .176471 .258824 rg
+n 0 184.5 540 -22.9 re f*
+1 1 1 rg
+n 0 161.6 540 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 138.9 540 -22.7 re f*
+1 1 1 rg
+n 0 116.2 540 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 93.5 540 -22.7 re f*
+1 1 1 rg
+n 0 70.8 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 35.4 540 -35.4 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 166.6 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 166.6 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Structure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4 166.6 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Typical trigger words) Tj T* ET
+Q
+Q
+q
+1 0 0 1 445.2 166.6 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Complexity) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 143.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (A. Recursive DFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 143.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (call stack) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4 143.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("traverse", "path exists", "connected") Tj T* ET
+Q
+Q
+q
+1 0 0 1 445.2 143.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(V+E\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 121.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (B. Iterative DFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 121.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (explicit Deque as stack) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4 121.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (same as A, but very deep/large graphs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 445.2 121.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(V+E\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 98.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (C. BFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 98.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Queue, level-by-level) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4 98.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("shortest path", "min steps", "level order") Tj T* ET
+Q
+Q
+q
+1 0 0 1 445.2 98.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(V+E\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (D. Grid DFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (recursion over 2D array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("islands", "flood fill", "connected region") Tj T* ET
+Q
+Q
+q
+1 0 0 1 445.2 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(rows \327 cols\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (E. Multi-source) Tj T* (BFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (queue seeded with multiple) Tj T* (starts) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("simultaneously spread", "min time to reach) Tj T* (all") Tj T* ET
+Q
+Q
+q
+1 0 0 1 445.2 53.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(rows \327 cols\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (F. Backtracking) Tj T* (DFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 17.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (recursion + explicit undo step) Tj T* ET
+Q
+Q
+q
+1 0 0 1 236.4 17.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("all permutations/combinations/subsets") Tj T* ET
+Q
+Q
+q
+1 0 0 1 445.2 17.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(branching^depth\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 184.5 m 540 184.5 l S
+n 0 0 m 540 0 l S
+n 0 0 m 0 184.5 l S
+n 540 0 m 540 184.5 l S
+n 0 161.6 m 540 161.6 l S
+n 0 138.9 m 540 138.9 l S
+n 0 116.2 m 540 116.2 l S
+n 0 93.5 m 540 93.5 l S
+n 0 70.8 m 540 70.8 l S
+n 0 35.4 m 540 35.4 l S
+n 93.6 0 m 93.6 184.5 l S
+n 230.4 0 m 230.4 184.5 l S
+n 439.2 0 m 439.2 184.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 288.9 cm
+Q
+q
+1 0 0 1 42 260.9 cm
+q
+BT 1 0 0 1 0 16.5 Tm -0.009976 Tw 13 TL /F2 9.5 Tf .2 .2 .2 rg (Key distinguishing question:) Tj /F1 9.5 Tf ( Do I need the shortest/minimum distance \() Tj /F3 9.5 Tf 13 TL (\256) Tj /F1 9.5 Tf 13 TL ( C or E, BFS\), am I exploring a grid region \() Tj /F3 9.5 Tf 13 TL (\256) Tj /F1 9.5 Tf 13 TL ( D\),) Tj T* 0 Tw (am I generating all valid arrangements with undo \() Tj /F3 9.5 Tf 13 TL (\256) Tj /F1 9.5 Tf 13 TL ( F\), or is it general reachability/structure \() Tj /F3 9.5 Tf 13 TL (\256) Tj /F1 9.5 Tf 13 TL ( A/B, DFS\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 232.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (10. Quick decision checklist \(use this in an interview\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 212.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (1. Does the problem need shortest path / minimum steps in an unweighted graph? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( BFS \(Type C\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+30 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Contents 32 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 33 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 4989
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 732.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (2. Are there multiple simultaneous starting points spreading outward? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( Multi-source BFS \(Type E\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 698.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (3. Do I need to generate all valid combinations/arrangements, with the ability to undo a choice? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( Backtracking DFS) Tj T* (\(Type F\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 664.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (4. Is it a 2D grid asking about connected regions/islands? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( Grid DFS \(Type D\) \(BFS works too, DFS is usually simpler) Tj T* (to write\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 644.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (5. Is the graph very deep or could cause a stack overflow with recursion? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( Iterative DFS \(Type B\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 624.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (6. Otherwise \227 general traversal, cycle detection, topological sort ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( Recursive DFS \(Type A\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 590.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (7. Are edges weighted and you still need shortest path? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( Neither \227 use Dijkstra \(non-negative weights\) or) Tj T* (Bellman-Ford \(negative weights allowed\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 562.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (11. Comparison with Two Pointers, Sliding Window, Sweep Line, and Greedy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36 366.3 cm
+q
+.168627 .176471 .258824 rg
+n 0 190.1 540 -35.8 re f*
+1 1 1 rg
+n 0 154.3 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 118.9 540 -35.4 re f*
+1 1 1 rg
+n 0 83.5 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 48.1 540 -48.1 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 185.1 cm
+Q
+q
+1 0 0 1 99.6 159.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 16.1 Tm /F2 9.7 Tf 12.9 TL (Two Pointers / Sliding Window / Sweep Line /) Tj T* (Greedy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 351.6 172.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (DFS / BFS) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 136.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Data shape) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 136.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Linear \(array, sorted events, intervals\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 351.6 123.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Graph/tree structure \(nodes + edges,) Tj T* (possibly a grid\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 101.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Core mechanism) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 88.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Pointer\(s\) advancing through a sequence with a) Tj T* (monotonic invariant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 351.6 88.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Traversal following edges/adjacency, with) Tj T* (branching) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Backtracking) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 65.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (None \227 a discarded position is never revisited) Tj T* ET
+Q
+Q
+q
+1 0 0 1 351.6 53.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL -0.0855 Tw (DFS backtracking explicitly re-visits/undoes) Tj T* 0 Tw (choices) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 30.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (When they meet) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.6 Tm /F1 9.5 Tf 12.7 TL (Grid BFS/DFS problems sometimes combine with a) Tj T* (sweep-like "process by distance/level" idea \(Type E is) Tj T* (essentially a sweep line over graph distance\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 351.6 30.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (\227) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 190.1 m 540 190.1 l S
+n 0 0 m 540 0 l S
+n 0 0 m 0 190.1 l S
+n 540 0 m 540 190.1 l S
+n 0 154.3 m 540 154.3 l S
+n 0 118.9 m 540 118.9 l S
+n 0 83.5 m 540 83.5 l S
+n 0 48.1 m 540 48.1 l S
+n 93.6 0 m 93.6 190.1 l S
+n 345.6 0 m 345.6 190.1 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 358.3 cm
+Q
+q
+1 0 0 1 42 317.3 cm
+q
+BT 1 0 0 1 0 29.5 Tm 13 TL /F1 9.5 Tf .2 .2 .2 rg (The core difference: earlier patterns \(two pointers, sliding window, sweep line, greedy\) all operate on ) Tj /F2 9.5 Tf (flat, ordered) Tj T* (sequences) Tj /F1 9.5 Tf ( where you never branch. DFS/BFS operate on ) Tj /F2 9.5 Tf (branching structures) Tj /F1 9.5 Tf ( \227 there isn't one path forward, there are) Tj T* (potentially many, and the choice of DFS vs BFS is about which order you explore those branches in.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+33 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+34 0 obj
+<<
+/Contents 35 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 36 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+35 0 obj
+<<
+/Length 3642
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 724.4 cm
+q
+.101961 .101961 .180392 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (Recursion \227 Complete Guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 696.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (1. What is it?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 648.4 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL /F1 10 Tf 0 0 0 rg (Recursion is when a function ) Tj /F2 10 Tf (calls itself) Tj /F1 10 Tf ( to solve smaller instances of the same problem, until it reaches a ) Tj /F2 10 Tf (base case) Tj /F1 10 Tf  T* (simple enough to answer directly. The results of the smaller calls are then combined to build the answer to the original) Tj T* (problem.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 600.4 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL /F1 10 Tf 0 0 0 rg (Every recursive function needs exactly two parts: 1. ) Tj /F2 10 Tf (Base case\(s\)) Tj /F1 10 Tf ( \227 the condition\(s\) where the function stops calling) Tj T* (itself and returns directly. 2. ) Tj /F2 10 Tf (Recursive case) Tj /F1 10 Tf ( \227 where the function calls itself on a smaller/simpler version of the input,) Tj T* (and combines that result into the current answer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 572.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (2. Why is it used?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 538.4 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 Naturally expresses problems that are ) Tj /F2 10 Tf (self-similar) Tj /F1 10 Tf ( \227 the solution to size n is built from the solution to a smaller) Tj T* (size) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 507.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 18 Tm /F1 10 Tf 14 TL (\177 Often dramatically simpler to read/write than the equivalent iterative version \(tree traversals, backtracking, divide) Tj T* (and conquer\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 490.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 The call stack gives you \223free\224 backtracking \227 undoing a choice is often just returning from the call) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 459.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 18 Tm /F1 10 Tf 14 TL (\177 It's the natural language for problems defined recursively in the first place \(trees, nested structures, mathematical) Tj T* (recurrences\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 431.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (3. Where is it used?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 411.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Tree and graph traversal \(DFS is inherently recursive\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 394.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Divide and conquer \(merge sort, quick sort, binary search\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 377.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Backtracking \(permutations, combinations, subsets, N-Queens, Sudoku\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 360.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Dynamic programming \(top-down / memoized recursion\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 343.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Mathematical recurrences \(factorial, Fibonacci, power, GCD\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 326.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Nested/recursive data structures \(nested lists, JSON parsing, file system traversal\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 309.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 String/array problems expressible as \223solve for the rest after handling the first/last element\224) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+36 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+37 0 obj
+<<
+/Contents 38 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 39 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 6433
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 728.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (4. How to identify a Recursion problem \(pattern triggers\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36 537.9 cm
+q
+.168627 .176471 .258824 rg
+n 0 184.5 540 -22.9 re f*
+1 1 1 rg
+n 0 161.6 540 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 138.9 540 -22.7 re f*
+1 1 1 rg
+n 0 116.2 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 80.8 540 -22.7 re f*
+1 1 1 rg
+n 0 58.1 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 22.7 540 -22.7 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 166.6 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Signal in the problem statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 279.6 166.6 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (What it suggests) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 143.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("tree", "nested", data structure defined in terms of itself) Tj T* ET
+Q
+Q
+q
+1 0 0 1 279.6 143.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Recursion mirrors the data's own definition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 121.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("all possible ways to...", "generate all...") Tj T* ET
+Q
+Q
+q
+1 0 0 1 279.6 121.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Recursion + backtracking) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 85.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Problem naturally splits into "solve for smaller input, then) Tj T* (combine") Tj T* ET
+Q
+Q
+q
+1 0 0 1 279.6 98.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Divide and conquer recursion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 63.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("the answer for n depends on the answer for n-1 \(or smaller\)") Tj T* ET
+Q
+Q
+q
+1 0 0 1 279.6 63.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Direct recursive recurrence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (You can describe the solution as "do X, then recursively solve) Tj T* (the rest") Tj T* ET
+Q
+Q
+q
+1 0 0 1 279.6 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Strong recursion signal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Problem involves undo/backtrack after trying a choice) Tj T* ET
+Q
+Q
+q
+1 0 0 1 279.6 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Recursion \(backtracking specifically\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 184.5 m 540 184.5 l S
+n 0 0 m 540 0 l S
+n 0 0 m 0 184.5 l S
+n 540 0 m 540 184.5 l S
+n 0 161.6 m 540 161.6 l S
+n 0 138.9 m 540 138.9 l S
+n 0 116.2 m 540 116.2 l S
+n 0 80.8 m 540 80.8 l S
+n 0 58.1 m 540 58.1 l S
+n 0 22.7 m 540 22.7 l S
+n 273.6 0 m 273.6 184.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 509.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (5. Can you tell from constraints alone?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 489.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Yes, partially:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 455.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 18 Tm /F1 10 Tf 14 TL (\177 Small n \() Tj /F3 10 Tf 14 TL (\243) Tj /F1 10 Tf 14 TL ( ~20-25\) with an expected exponential-looking solution \(\223all subsets\224, \223all permutations\224\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL T* (recursion/backtracking is expected; brute-force enumeration is intentional at that size.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 424.9 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 Large n \(10) Tj /F1 8 Tf 5 Ts (4) Tj /F1 10 Tf 0 Ts (+\) with a naive recursive recurrence and overlapping subproblems \(e.g. Fibonacci\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( plain recursion) Tj T* (will time out; you need memoization \(top-down DP\) or an iterative bottom-up version.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 393.9 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 If recursion \(chain-like structures, n up to 10) Tj /F1 8 Tf 5 Ts (4) Tj /F1 10 Tf 0 Ts (-10) Tj /F1 8 Tf 5 Ts (5) Tj /F1 10 Tf 0 Ts (\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( risk of StackOverflowError in Java; prefer converting to) Tj T* (iteration or increasing stack size deliberately, don't assume recursion is safe just because it's simple.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 362.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 18 Tm /F1 10 Tf 14 TL -0.104706 Tw (\177 If overlapping subproblems exist \(the same sub-call happens many times with identical inputs\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( recursion alone is) Tj T* 0 Tw (exponential; add memoization.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 333.9 cm
+q
+BT 1 0 0 1 0 16.5 Tm 13 TL /F2 9.5 Tf .2 .2 .2 rg (Paraphrase test:) Tj /F1 9.5 Tf ( If you can finish the sentence \223the answer to a problem of size n is [some combination of] the answer\(s\) to) Tj T* (problem\(s\) of smaller size\224 \227 that's a recursive definition, and the code should mirror it directly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 305.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (6. Intuition / Rationale) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 243.9 cm
+q
+BT 1 0 0 1 0 46 Tm 14 TL /F1 10 Tf 0 0 0 rg (Recursion works because of ) Tj /F2 10 Tf (mathematical induction) Tj /F1 10 Tf (: if you can prove the base case is correct, and prove the) Tj T* (recursive case is correct ) Tj /F6 10 Tf (assuming) Tj /F1 10 Tf ( smaller sub-calls are correct, then by induction the function is correct for all valid) Tj T* -0.036957 Tw (inputs. You don't need to trace every recursive call by hand \227 you only need to trust the recursive leap of faith once the) Tj T* 0 Tw (base case and the inductive step are both verified.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 181.9 cm
+q
+BT 1 0 0 1 0 46 Tm 14 TL /F2 10 Tf 0 0 0 rg (The \223leap of faith\224:) Tj /F1 10 Tf ( when writing ) Tj /F5 10 Tf (return solve\(n-1\) + something;) Tj /F1 10 Tf ( , you should not mentally unroll what) Tj T* -0.043889 Tw (solve\(n-1\) does internally \227 you should ) Tj /F6 10 Tf (assume it's already correct) Tj /F1 10 Tf ( \(by the inductive hypothesis\) and focus only on how) Tj T* 0 Tw (to correctly build the correct result for n from that assumed-correct result. This is the single biggest mental shift that) Tj T* (makes recursion easy to write instead of confusing.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+39 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+40 0 obj
+<<
+/Contents 41 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 42 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+41 0 obj
+<<
+/Length 4521
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 728.4 cm
+q
+BT 1 0 0 1 0 5.5 Tm 18 TL /F2 12.5 Tf .086275 .129412 .243137 rg (7. Time & Space Complexity \(generic\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 680.4 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL /F2 10 Tf 0 0 0 rg (Why the call stack matters:) Tj /F1 10 Tf ( each recursive call gets its own stack frame with its own local variables. This is what) Tj T* (makes backtracking trivial \227 when a call returns, its local state \(e.g. current.add\(x\) before the call, current.remove\(x\)) Tj T* (after\) naturally \223undoes\224 as control returns to the caller, without needing to manually manage a global undo stack.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 660.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 ) Tj /F2 10 Tf (Time:) Tj /F1 10 Tf ( depends entirely on the recurrence relation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 643.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg ( ) Tj ( ) Tj ( ) Tj ( ) Tj /F4 10 Tf 14 TL (n) Tj /F1 10 Tf 14 TL ( One recursive call per level, shrinking input by a constant \(e.g. n-1\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 626.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg ( ) Tj ( ) Tj ( ) Tj ( ) Tj /F4 10 Tf 14 TL (n) Tj /F1 10 Tf 14 TL ( Two recursive calls per level, shrinking input by half \(e.g. binary search\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( O\(log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 609.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg ( ) Tj ( ) Tj ( ) Tj ( ) Tj /F4 10 Tf 14 TL (n) Tj /F1 10 Tf 14 TL ( One call, shrinking input by half \(e.g. merge sort\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 592.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg ( ) Tj ( ) Tj ( ) Tj ( ) Tj /F4 10 Tf 14 TL (n) Tj /F1 10 Tf 14 TL ( Two calls, each on half the input \(e.g. naive Fibonacci\) ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( O\(2^n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 547.4 cm
+q
+BT 1 0 0 1 14 32 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 ) Tj /F2 10 Tf (Space:) Tj /F1 10 Tf ( O\(depth of recursion\) for the call stack, ) Tj /F2 10 Tf (regardless of how many total calls are made) Tj /F1 10 Tf ( \227 this is the most) Tj T* (commonly mis-estimated part. Naive Fibonacci makes O\(2^n\) calls but only ever has O\(n\) stack frames alive at) Tj T* (once, so its space complexity is O\(n\), not O\(2^n\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 519.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (8. Types of Recursion \(with Java templates\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 491.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type A \227 Linear Recursion \(single recursive call\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 471.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: factorial, sum of array, simple traversal of a linked structure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 423.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 33.8 Tm /F5 8.2 Tf 10.5 TL (public int factorial\(int n\) {) Tj T* (    if \(n <= 1\) return 1;  // base case) Tj T* (    return n * factorial\(n - 1\); // recursive case: trust factorial\(n-1\) is correct) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 395.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type B \227 Divide and Conquer \(multiple calls on disjoint sub-inputs\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 375.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: merge sort, quick sort, binary search, tree height/depth.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 295.9 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 65.3 Tm /F5 8.2 Tf 10.5 TL (public void mergeSort\(int[] arr, int left, int right\) {) Tj T* (    if \(left >= right\) return; // base case: 0 or 1 elements, already sorted) Tj T* (    int mid = left + \(right - left\) / 2;) Tj T* (    mergeSort\(arr, left, mid\);      // solve left half) Tj T* (    mergeSort\(arr, mid + 1, right\); // solve right half) Tj T* (    merge\(arr, left, mid, right\);   // combine the two sorted halves) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 267.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type C \227 Tree Recursion \(mirrors the tree's own structure\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 247.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: tree traversals, tree depth, validate BST, tree sum.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+42 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 45 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 3056
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 683.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 54.8 Tm /F5 8.2 Tf 10.5 TL (public int maxDepth\(TreeNode root\) {) Tj T* (    if \(root == null\) return 0; // base case: empty tree has depth 0) Tj T* (    int leftDepth = maxDepth\(root.left\);   // trust this is correct \(leap of faith\)) Tj T* (    int rightDepth = maxDepth\(root.right\); // trust this is correct too) Tj T* (    return 1 + Math.max\(leftDepth, rightDepth\); // combine: this node + deeper subtree) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 655.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type D \227 Backtracking \(explore, then undo\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 635.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: permutations, combinations, subsets, N-Queens, word search.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 482.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 138.8 Tm /F5 8.2 Tf 10.5 TL (public List<List<Integer>> subsets\(int[] nums\) {) Tj T* (    List<List<Integer>> result = new ArrayList<>\(\);) Tj T* (    backtrack\(nums, 0, new ArrayList<>\(\), result\);) Tj T* (    return result;) Tj T* (}) Tj T*  T* (private void backtrack\(int[] nums, int start, List<Integer> current, List<List<Integer>> result\) {) Tj T* (    result.add\(new ArrayList<>\(current\)\); // every state along the way is a valid subset) Tj T* (    for \(int i = start; i < nums.length; i++\) {) Tj T* (        current.add\(nums[i]\);       // choose) Tj T* (        backtrack\(nums, i + 1, current, result\); // explore) Tj T* (        current.remove\(current.size\(\) - 1\);      // un-choose \(backtrack\)) Tj T* (    }) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 454.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type E \227 Memoized Recursion \(top-down DP\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 434.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: Fibonacci, climbing stairs, any recursion with overlapping subproblems.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 344.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 75.8 Tm /F5 8.2 Tf 10.5 TL (public long fib\(int n, Map<Integer, Long> memo\) {) Tj T* (    if \(n <= 1\) return n;  // base case) Tj T* (    if \(memo.containsKey\(n\)\) return memo.get\(n\); // avoid recomputing a solved subproblem) Tj T*  T* (    long result = fib\(n - 1, memo\) + fib\(n - 2, memo\);) Tj T* (    memo.put\(n, result\); // cache before returning) Tj T* (    return result;) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 316.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type F \227 Mutual/Indirect Recursion \(two functions call each other\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 296.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: parsing recursive grammars, alternating state machines \(less common in interviews, but appears in parsers\).) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+45 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+46 0 obj
+<<
+/Contents 47 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 48 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+47 0 obj
+<<
+/Length 6152
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 728.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (9. Comparison of the patterns) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36 499.8 cm
+q
+.168627 .176471 .258824 rg
+n 0 222.6 540 -22.9 re f*
+1 1 1 rg
+n 0 199.7 540 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 177 540 -35.4 re f*
+1 1 1 rg
+n 0 141.6 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 106.2 540 -35.4 re f*
+1 1 1 rg
+n 0 70.8 540 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 35.4 540 -35.4 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 204.7 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.2 204.7 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Number of recursive calls) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 204.7 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Typical trigger words) Tj T* ET
+Q
+Q
+q
+1 0 0 1 394.8 204.7 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Complexity driver) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 182 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (A. Linear) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.2 182 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (1 call, shrinks by constant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 182 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("compute for n based on n-1") Tj T* ET
+Q
+Q
+q
+1 0 0 1 394.8 182 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(n\) time, O\(n\) space) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 146.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (B. Divide and) Tj T* (conquer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.2 159.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (2+ calls on disjoint sub-ranges) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 146.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("sort", "search", "split problem in) Tj T* (half") Tj T* ET
+Q
+Q
+q
+1 0 0 1 394.8 159.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(n log n\) typical) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 111.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (C. Tree) Tj T* (recursion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.2 111.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (1 call per child \(2 for binary) Tj T* (tree\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 123.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("tree", "depth", "traverse") Tj T* ET
+Q
+Q
+q
+1 0 0 1 394.8 111.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (O\(n\) time \(n = node count\), O\(h\)) Tj T* (space) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 88.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (D. Backtracking) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.2 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Variable \227 one call per choice,) Tj T* (with undo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("all) Tj T* (permutations/combinations/subsets") Tj T* ET
+Q
+Q
+q
+1 0 0 1 394.8 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (O\(branching^depth\), often) Tj T* (exponential) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 53.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (E. Memoized) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.2 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Same shape as A/C but) Tj T* (cached) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (overlapping subproblems, "number) Tj T* (of ways") Tj T* ET
+Q
+Q
+q
+1 0 0 1 394.8 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (O\(number of unique) Tj T* (subproblems\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 17.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (F. Mutual) Tj T* ET
+Q
+Q
+q
+1 0 0 1 85.2 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Alternates between two+) Tj T* (functions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 17.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (grammar/parsing problems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 394.8 17.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (depends on recurrence) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 222.6 m 540 222.6 l S
+n 0 0 m 540 0 l S
+n 0 0 m 0 222.6 l S
+n 540 0 m 540 222.6 l S
+n 0 199.7 m 540 199.7 l S
+n 0 177 m 540 177 l S
+n 0 141.6 m 540 141.6 l S
+n 0 106.2 m 540 106.2 l S
+n 0 70.8 m 540 70.8 l S
+n 0 35.4 m 540 35.4 l S
+n 79.2 0 m 79.2 222.6 l S
+n 223.2 0 m 223.2 222.6 l S
+n 388.8 0 m 388.8 222.6 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 471.8 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (10. Quick decision checklist \(use this in an interview\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 451.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (1. Can I state the base case\(s\) first \227 the smallest input\(s\) I can answer without recursing? Always start here.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 417.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (2. Does my recursive case call the function on a strictly smaller input, guaranteeing eventual termination? If not, infinite) Tj T* (recursion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 397.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (3. Am I trusting the recursive call's result \(leap of faith\) instead of trying to mentally trace every nested call?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 377.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (4. Do I need to ) Tj /F2 10 Tf (undo) Tj /F1 10 Tf ( a choice after exploring it \(add to a list, then remove\)? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( ) Tj /F2 10 Tf (Backtracking \(Type D\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 343.8 cm
+q
+BT 1 0 0 1 0 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (5. Will the same sub-call happen with identical arguments more than once? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( add a ) Tj /F2 10 Tf (memo map \(Type E\)) Tj /F1 10 Tf ( before it) Tj T* (becomes exponential) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 309.8 cm
+q
+BT 1 0 0 1 0 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (6. Is the recursion depth potentially very large \(deep chains, large n\)? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( consider ) Tj /F2 10 Tf (converting to iteration) Tj /F1 10 Tf ( to avoid) Tj T* (StackOverflowError) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+48 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+49 0 obj
+<<
+/Contents 50 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 51 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+50 0 obj
+<<
+/Length 3911
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 718.4 cm
+q
+BT 1 0 0 1 0 18 Tm -0.037895 Tw 14 TL /F1 10 Tf 0 0 0 rg (7. Does the problem split cleanly into independent halves that don't need to \223know\224 about each other until combined? ) Tj /F3 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL T* 0 Tw /F2 10 Tf (Divide and conquer \(Type B\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 690.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (11. Comparison with DFS/BFS and the other patterns) Tj T* ET
+Q
+Q
+q
+1 0 0 1 36 555.3 cm
+q
+.168627 .176471 .258824 rg
+n 0 129.1 540 -22.9 re f*
+1 1 1 rg
+n 0 106.2 540 -48.1 re f*
+.968627 .968627 .984314 rg
+n 0 58.1 540 -35.4 re f*
+1 1 1 rg
+n 0 22.7 540 -22.7 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 124.1 cm
+Q
+q
+1 0 0 1 92.4 111.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Recursion \(general\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 111.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (DFS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 380.4 111.2 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Backtracking) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 88.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Relationship) Tj T* ET
+Q
+Q
+q
+1 0 0 1 92.4 88.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (The general mechanism) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (A specific application of) Tj T* (recursion to graph/tree traversal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 380.4 63.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.6 Tm /F1 9.5 Tf 12.7 TL (A specific application of recursion) Tj T* (with explicit) Tj T* (choose/explore/un-choose) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (What's being) Tj T* (explored) Tj T* ET
+Q
+Q
+q
+1 0 0 1 92.4 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Any self-similar sub-problem) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Nodes/edges of a graph or tree) Tj T* ET
+Q
+Q
+q
+1 0 0 1 380.4 27.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (A decision tree of choices \(not) Tj T* (necessarily a \223real\224 graph\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Undo needed?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 92.4 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Only if backtracking) Tj T* ET
+Q
+Q
+q
+1 0 0 1 229.2 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Rarely \(just mark visited\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 380.4 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Always \227 that's the defining feature) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 129.1 m 540 129.1 l S
+n 0 0 m 540 0 l S
+n 0 0 m 0 129.1 l S
+n 540 0 m 540 129.1 l S
+n 0 106.2 m 540 106.2 l S
+n 0 58.1 m 540 58.1 l S
+n 0 22.7 m 540 22.7 l S
+n 86.4 0 m 86.4 129.1 l S
+n 223.2 0 m 223.2 129.1 l S
+n 374.4 0 m 374.4 129.1 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 547.3 cm
+Q
+q
+1 0 0 1 42 467.3 cm
+q
+BT 1 0 0 1 0 68.5 Tm 13 TL /F2 9.5 Tf .2 .2 .2 rg (The cleanest mental model:) Tj /F1 9.5 Tf ( recursion is the umbrella technique. DFS is recursion specifically applied to graph/tree) Tj T* (adjacency. Backtracking is recursion specifically applied to a decision tree where you must undo a choice to try the next one.) Tj T* (Divide and conquer is recursion where sub-calls are on independent, non-overlapping pieces of input that get merged) Tj T* (afterward. Memoized recursion \(top-down DP\) is recursion plus a cache, used when sub-calls overlap. Once you see) Tj T* (recursion as the shared foundation, DFS/backtracking/divide-and-conquer/DP all become \223recursion + one extra rule,\224 not) Tj T* (separate things to memorize from scratch.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.45 0.45 0.45 rg
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+51 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 52
+0000000000 65535 f 
+0000000015 00000 n 
+0000000203 00000 n 
+0000000354 00000 n 
+0000000403 00000 n 
+0000000679 00000 n 
+0000004582 00000 n 
+0000004689 00000 n 
+0000004796 00000 n 
+0000004908 00000 n 
+0000004985 00000 n 
+0000005069 00000 n 
+0000005175 00000 n 
+0000005291 00000 n 
+0000005570 00000 n 
+0000012395 00000 n 
+0000012503 00000 n 
+0000012782 00000 n 
+0000016187 00000 n 
+0000016295 00000 n 
+0000016574 00000 n 
+0000019398 00000 n 
+0000019506 00000 n 
+0000019785 00000 n 
+0000021554 00000 n 
+0000021662 00000 n 
+0000021941 00000 n 
+0000023990 00000 n 
+0000024098 00000 n 
+0000024377 00000 n 
+0000030719 00000 n 
+0000030827 00000 n 
+0000031106 00000 n 
+0000036148 00000 n 
+0000036256 00000 n 
+0000036535 00000 n 
+0000040230 00000 n 
+0000040338 00000 n 
+0000040617 00000 n 
+0000047103 00000 n 
+0000047211 00000 n 
+0000047490 00000 n 
+0000052064 00000 n 
+0000052172 00000 n 
+0000052451 00000 n 
+0000055560 00000 n 
+0000055668 00000 n 
+0000055947 00000 n 
+0000062152 00000 n 
+0000062260 00000 n 
+0000062539 00000 n 
+0000066503 00000 n 
+trailer
+<<
+/Size 52
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+66611
+%%EOF
