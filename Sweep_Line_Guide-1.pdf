@@ -1,0 +1,1446 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 6
+/Kids [ 4 0 R 12 0 R 15 0 R 18 0 R 21 0 R 24 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3641
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 724.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 20 Tf 22 TL 86.18 0 Td (Sweep Line \227 Complete Study Guide) Tj T* -86.18 0 Td ET
+Q
+Q
+q
+1 0 0 1 42 698.4 cm
+q
+.501961 .501961 .501961 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Transcribed from handwritten/annotated notes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 686.4 cm
+Q
+q
+1 0 0 1 42 650.4 cm
+q
+.101961 .101961 .180392 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (Sweep Line \227 Complete Guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 622.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (1. What is it?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 574.4 cm
+q
+BT 1 0 0 1 0 32 Tm -0.0545 Tw 14 TL /F1 10 Tf 0 0 0 rg (Sweep line is a technique where you imagine a vertical \(or horizontal\) line ) Tj /F2 10 Tf (sweeping across a set of events sorted by) Tj T* 0 Tw (position) Tj /F1 10 Tf ( \(usually time, x-coordinate, or a numeric range boundary\), processing events in order and maintaining some) Tj T* (running state \(a count, a running sum, an active set\) as the line passes each event.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 554.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (It converts a 2D or interval-overlap problem into a ) Tj /F2 10 Tf (1D ordered event-processing problem) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 526.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (2. Why is it used?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 506.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Turns O\(n\262\) pairwise interval/segment comparisons into O\(n log n\) sorted processing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 489.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Naturally handles \223how many things are active at time X\224 without re-scanning) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 472.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 Works well when the ) Tj /F3 10 Tf (only) Tj /F1 10 Tf ( thing that matters is order of events, not their exact geometry) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 455.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Combines cleanly with a heap, ordered map \(TreeMap\), or difference array to track \223currently active\224 state) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 427.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (3. Where is it used?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 407.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Interval scheduling / meeting rooms \(min rooms needed, can attend all meetings\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 390.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Merge intervals, insert interval) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 373.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Skyline problem \(building silhouette\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 356.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Maximum overlapping intervals / max concurrent events) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 339.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Calendar booking \(detect double-booking, k-booking\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 322.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Car pooling / trip overlap capacity problems) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 305.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Computational geometry: closest pair of points, segment intersection, rectangle area/union) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 288.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4 Tm /F1 10 Tf 14 TL (\177 Range update problems solvable via difference arrays) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Symbol
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6426
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 728.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (4. How to identify a Sweep Line problem \(pattern triggers\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.8 527.9 cm
+q
+.168627 .176471 .258824 rg
+n 0 194.5 518.4 -22.9 re f*
+1 1 1 rg
+n 0 171.6 518.4 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 148.9 518.4 -35.4 re f*
+1 1 1 rg
+n 0 113.5 518.4 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 90.8 518.4 -22.7 re f*
+1 1 1 rg
+n 0 68.1 518.4 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 45.4 518.4 -22.7 re f*
+1 1 1 rg
+n 0 22.7 518.4 -22.7 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 176.6 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Signal in the problem statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 258 176.6 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (What it suggests) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 153.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("intervals", "meetings", "events with start/end") Tj T* ET
+Q
+Q
+q
+1 0 0 1 258 153.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Classic sweep line candidate) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 118.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("maximum number of overlapping...", "min) Tj T* (resources/rooms needed") Tj T* ET
+Q
+Q
+q
+1 0 0 1 258 131.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Event counting sweep) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 95.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("at any point in time", "concurrently") Tj T* ET
+Q
+Q
+q
+1 0 0 1 258 95.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Sweep with a running counter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 73.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("skyline", "silhouette", "union of rectangles") Tj T* ET
+Q
+Q
+q
+1 0 0 1 258 73.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Sweep + ordered structure \(heap/TreeMap\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 50.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("book a meeting without conflict", "k-th booking allowed") Tj T* ET
+Q
+Q
+q
+1 0 0 1 258 50.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Sweep with a count threshold) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 27.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Multiple [start, end] pairs given) Tj T* ET
+Q
+Q
+q
+1 0 0 1 258 27.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Strong signal \227 sort by start \(and sometimes end\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("on a number line", "range queries applied to array") Tj T* ET
+Q
+Q
+q
+1 0 0 1 258 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Difference array / sweep over deltas) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 194.5 m 518.4 194.5 l S
+n 0 0 m 518.4 0 l S
+n 0 0 m 0 194.5 l S
+n 518.4 0 m 518.4 194.5 l S
+n 0 171.6 m 518.4 171.6 l S
+n 0 148.9 m 518.4 148.9 l S
+n 0 113.5 m 518.4 113.5 l S
+n 0 90.8 m 518.4 90.8 l S
+n 0 68.1 m 518.4 68.1 l S
+n 0 45.4 m 518.4 45.4 l S
+n 0 22.7 m 518.4 22.7 l S
+n 252 0 m 252 194.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 519.9 cm
+Q
+q
+1 0 0 1 42 491.9 cm
+q
+BT 1 0 0 1 0 16.5 Tm 13 TL /F2 9.5 Tf .2 .2 .2 rg (Paraphrase test:) Tj /F1 9.5 Tf ( If the problem can be rephrased as \223process a bunch of start/end markers in order and track how many are) Tj T* (open at once\224 \227 it's sweep line.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 463.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (5. Can you tell from constraints alone?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 443.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Yes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 409.9 cm
+q
+BT 1 0 0 1 14 18 Tm -0.008111 Tw 14 TL /F1 10 Tf 0 0 0 rg (\177 Large n \(up to 10) Tj /F1 8 Tf 5 Ts (5) Tj /F1 10 Tf 0 Ts (-10) Tj /F1 8 Tf 5 Ts (6) Tj /F1 10 Tf 0 Ts (\) with intervals/points given ) Tj /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( sorting-based O\(n log n\) sweep is expected, since brute-force) Tj T* 0 Tw (pairwise \(O\(n\262\)\) is too slow.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 378.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 18 Tm /F1 10 Tf 14 TL (\177 If the problem only asks for a count/aggregate at each moment \(not exact geometric shapes\) ) Tj /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( simple counter) Tj T* (sweep suffices, no heap needed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 347.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 18 Tm /F1 10 Tf 14 TL (\177 If it asks for the actual shape/skyline or \223which interval is active\224 ) Tj /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( you need an ordered structure \(heap or) Tj T* (TreeMap\) alongside the sweep, not just a counter.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 316.9 cm
+q
+BT 1 0 0 1 14 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 If updates apply to ) Tj /F3 10 Tf (ranges) Tj /F1 10 Tf ( of an array and you only need the final array ) Tj /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( difference array + prefix sum \(a sweep) Tj T* (variant\) beats doing per-index updates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 288.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (6. Intuition / Rationale) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 226.9 cm
+q
+BT 1 0 0 1 0 46 Tm 14 TL /F1 10 Tf 0 0 0 rg (A sweeping line works because overlap/interval problems have a hidden 1D structure: you don't actually care about the) Tj T* (shapes, you care about ) Tj /F3 10 Tf (the sequence of moments where the state changes) Tj /F1 10 Tf ( \227 a start \223opens\224 something, an end) Tj T* (\223closes\224 it. Between two consecutive events, nothing changes, so you never need to examine the interior of an interval) Tj T* (\227 only its boundaries.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 192.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL -0.118421 Tw (This is the same monotonicity idea as two pointers: once you sort events, you process each boundary exactly once, and) Tj T* 0 Tw (the running state \(count, sum, or active set\) is updated incrementally rather than recomputed from scratch.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 164.9 cm
+q
+BT 1 0 0 1 0 5.5 Tm 18 TL /F2 12.5 Tf .086275 .129412 .243137 rg (7. Time & Space Complexity \(generic\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 144.9 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 ) Tj /F2 10 Tf (Time:) Tj /F1 10 Tf ( O\(n log n\) \227 dominated by sorting events \(or the heap operations if used\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 2339
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 732.4 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (\177 ) Tj /F2 10 Tf (Space:) Tj /F1 10 Tf ( O\(n\) for the event list / heap / active-interval structure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 704.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (8. Types of Sweep Line \(with Java templates\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 676.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type A \227 Counting Sweep \(max concurrent events\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 656.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: meeting rooms II, max overlapping intervals, car pooling capacity check.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 387.9 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 254.3 Tm /F5 8.2 Tf 10.5 TL (public int minMeetingRooms\(int[][] intervals\) {) Tj T* (    int n = intervals.length;) Tj T* (    int[] starts = new int[n];) Tj T* (    int[] ends = new int[n];) Tj T* (    for \(int i = 0; i < n; i++\) {) Tj T* (        starts[i] = intervals[i][0];) Tj T* (        ends[i] = intervals[i][1];) Tj T* (    }) Tj T* (    Arrays.sort\(starts\);) Tj T* (    Arrays.sort\(ends\);) Tj T*  T* (    int rooms = 0, maxRooms = 0;) Tj T* (    int s = 0, e = 0;) Tj T* (    while \(s < n\) {) Tj T* (        if \(starts[s] < ends[e]\) {   // a meeting starts before another ends) Tj T* (            rooms++;) Tj T* (            s++;) Tj T* (        } else {                     // a meeting ends, free a room) Tj T* (            rooms--;) Tj T* (            e++;) Tj T* (        }) Tj T* (        maxRooms = Math.max\(maxRooms, rooms\);) Tj T* (    }) Tj T* (    return maxRooms;) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 359.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type B \227 Event List with +1/-1 Deltas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 325.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18 Tm /F1 10 Tf 14 TL (Used for: same problems as Type A, but generalizes better when you need to process by exact timestamp order \(ties) Tj T* (handled explicitly \227 ends before starts at the same time, to free a room before opening a new one\).) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 20 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 3090
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 578.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 159.8 Tm /F5 8.2 Tf 10.5 TL (public int minMeetingRoomsDelta\(int[][] intervals\) {) Tj T* (    List<int[]> events = new ArrayList<>\(\); // {time, delta}) Tj T* (    for \(int[] iv : intervals\) {) Tj T* (        events.add\(new int[]{iv[0], 1}\);   // start: +1 active) Tj T* (        events.add\(new int[]{iv[1], -1}\);  // end:   -1 active) Tj T* (    }) Tj T* (    // Sort by time; if tie, process ends \(-1\) before starts \(+1\)) Tj T* (    events.sort\(\(a, b\) -> a[0] != b[0] ? a[0] - b[0] : a[1] - b[1]\);) Tj T*  T* (    int active = 0, maxActive = 0;) Tj T* (    for \(int[] ev : events\) {) Tj T* (        active += ev[1];) Tj T* (        maxActive = Math.max\(maxActive, active\);) Tj T* (    }) Tj T* (    return maxActive;) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 550.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type C \227 Sweep with a Heap \(track which interval ends soonest\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 530.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: skyline problem, whether a new meeting fits in an existing room, k-booking.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 398.4 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 117.8 Tm /F5 8.2 Tf 10.5 TL (public boolean canAttendAll\(int[][] intervals\) {) Tj T* (    Arrays.sort\(intervals, \(a, b\) -> a[0] - b[0]\); // sort by start) Tj T* (    PriorityQueue<Integer> endTimes = new PriorityQueue<>\(\); // min-heap of end times) Tj T*  T* (    for \(int[] iv : intervals\) {) Tj T* (        if \(!endTimes.isEmpty\(\) && endTimes.peek\(\) <= iv[0]\) {) Tj T* (            endTimes.poll\(\); // free up the room that already ended) Tj T* (        }) Tj T* (        endTimes.offer\(iv[1]\);) Tj T* (    }) Tj T* (    return endTimes.size\(\) <= 1; // or compare against room capacity) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 370.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type D \227 Difference Array \(range updates on a fixed-size array/line\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 350.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: "add value to all indices in [l, r]" applied many times, then read final array.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 186.9 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 149.3 Tm /F5 8.2 Tf 10.5 TL (public int[] applyRangeUpdates\(int n, int[][] updates\) {) Tj T* (    int[] diff = new int[n + 1];) Tj T* (    for \(int[] u : updates\) {) Tj T* (        int l = u[0], r = u[1], val = u[2];) Tj T* (        diff[l] += val;) Tj T* (        diff[r + 1] -= val; // cancels the effect after r) Tj T* (    }) Tj T* (    int[] result = new int[n];) Tj T* (    int running = 0;) Tj T* (    for \(int i = 0; i < n; i++\) {) Tj T* (        running += diff[i];) Tj T* (        result[i] = running;) Tj T* (    }) Tj T* (    return result;) Tj T* (}) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 23 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 6478
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 728.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type E \227 Coordinate Compression + Sweep \(large/sparse coordinate ranges\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 708.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (Used for: skyline, rectangle union area, when coordinates span huge ranges but there are few distinct values.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 565.9 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 4 128.3 Tm /F5 8.2 Tf 10.5 TL (public int maxOverlapCompressed\(int[][] intervals\) {) Tj T* (    TreeMap<Integer, Integer> deltaMap = new TreeMap<>\(\); // sorted by coordinate) Tj T* (    for \(int[] iv : intervals\) {) Tj T* (        deltaMap.merge\(iv[0], 1, Integer::sum\);) Tj T* (        deltaMap.merge\(iv[1], -1, Integer::sum\);) Tj T* (    }) Tj T* (    int active = 0, maxActive = 0;) Tj T* (    for \(int delta : deltaMap.values\(\)\) { // TreeMap iterates in sorted key order) Tj T* (        active += delta;) Tj T* (        maxActive = Math.max\(maxActive, active\);) Tj T* (    }) Tj T* (    return maxActive;) Tj T* (}) Tj T* ET
+Q
+q
+1 0 0 1 42 537.9 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (9. Comparison of the patterns) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.8 344.7 cm
+q
+.168627 .176471 .258824 rg
+n 0 187.2 518.4 -22.9 re f*
+1 1 1 rg
+n 0 164.3 518.4 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 128.9 518.4 -35.4 re f*
+1 1 1 rg
+n 0 93.5 518.4 -22.7 re f*
+.968627 .968627 .984314 rg
+n 0 70.8 518.4 -35.4 re f*
+1 1 1 rg
+n 0 35.4 518.4 -35.4 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 169.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 128.4 169.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Structure used) Tj T* ET
+Q
+Q
+q
+1 0 0 1 250.8 169.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Typical trigger words) Tj T* ET
+Q
+Q
+q
+1 0 0 1 430.8 169.3 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Complexity) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 133.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (A. Counting \(two sorted) Tj T* (arrays\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 128.4 133.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (two pointers on sorted) Tj T* (starts/ends) Tj T* ET
+Q
+Q
+q
+1 0 0 1 250.8 146.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("min rooms", "max overlap") Tj T* ET
+Q
+Q
+q
+1 0 0 1 430.8 146.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 111.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (B. Event list with deltas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 128.4 111.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (sorted list of \(time, \2611\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 250.8 98.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (same as A, but needs tie-breaking) Tj T* (control) Tj T* ET
+Q
+Q
+q
+1 0 0 1 430.8 111.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (C. Heap-based sweep) Tj T* ET
+Q
+Q
+q
+1 0 0 1 128.4 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (min-heap of end times) Tj T* ET
+Q
+Q
+q
+1 0 0 1 250.8 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL ("skyline", "k-booking", "can attend") Tj T* ET
+Q
+Q
+q
+1 0 0 1 430.8 75.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 53.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (D. Difference array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 128.4 53.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (plain array + prefix sum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 250.8 40.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL ("apply range update", fixed small) Tj T* (coordinate range) Tj T* ET
+Q
+Q
+q
+1 0 0 1 430.8 53.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(n + q\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (E. Coordinate) Tj T* (compression + TreeMap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 128.4 17.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (sorted map of deltas) Tj T* ET
+Q
+Q
+q
+1 0 0 1 250.8 5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (huge/sparse coordinate range, still) Tj T* (need overlap count) Tj T* ET
+Q
+Q
+q
+1 0 0 1 430.8 17.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (O\(n log n\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 187.2 m 518.4 187.2 l S
+n 0 0 m 518.4 0 l S
+n 0 0 m 0 187.2 l S
+n 518.4 0 m 518.4 187.2 l S
+n 0 164.3 m 518.4 164.3 l S
+n 0 128.9 m 518.4 128.9 l S
+n 0 93.5 m 518.4 93.5 l S
+n 0 70.8 m 518.4 70.8 l S
+n 0 35.4 m 518.4 35.4 l S
+n 122.4 0 m 122.4 187.2 l S
+n 244.8 0 m 244.8 187.2 l S
+n 424.8 0 m 424.8 187.2 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 336.7 cm
+Q
+q
+1 0 0 1 42 295.7 cm
+q
+BT 1 0 0 1 0 29.5 Tm 13 TL /F2 9.5 Tf .2 .2 .2 rg (Key distinguishing question:) Tj /F1 9.5 Tf ( Do I just need a running count \() Tj /F4 9.5 Tf 13 TL (\256) Tj /F1 9.5 Tf 13 TL ( Type A/B\), do I need to know which specific interval is) Tj T* (\223active\224 or ending soonest \() Tj /F4 9.5 Tf 13 TL (\256) Tj /F1 9.5 Tf 13 TL ( Type C heap\), am I applying repeated range updates to array indices \() Tj /F4 9.5 Tf 13 TL (\256) Tj /F1 9.5 Tf 13 TL ( Type D\), or are) Tj T* (coordinates too large/sparse for a plain array \() Tj /F4 9.5 Tf 13 TL (\256) Tj /F1 9.5 Tf 13 TL ( Type E\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 267.7 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (10. Quick decision checklist \(use this in an interview\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 247.7 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (1. Do I only need a max/min concurrent count? ) Tj /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( ) Tj /F2 10 Tf (Type A or B) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 227.7 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (2. Do I need to know ) Tj /F3 10 Tf (which) Tj /F1 10 Tf ( interval is ending soonest, or simulate limited resources? ) Tj /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( ) Tj /F2 10 Tf (Type C \(heap\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 207.7 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (3. Am I applying many range-add updates to indices of a bounded array? ) Tj /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( ) Tj /F2 10 Tf (Type D \(difference array\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+23 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 4606
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 42 732.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F1 10 Tf 0 0 0 rg (4. Are the coordinates huge or sparse \(not a small bounded range\)? ) Tj /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( ) Tj /F2 10 Tf (Type E \(coordinate compression\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 698.4 cm
+q
+BT 1 0 0 1 0 18 Tm 14 TL /F1 10 Tf 0 0 0 rg (5. Does the problem also require me to reconstruct the actual overlapping shape \(e.g. skyline outline\), not just a count?) Tj T* /F4 10 Tf 14 TL (\256) Tj /F1 10 Tf 14 TL ( ) Tj /F2 10 Tf (Type C) Tj /F1 10 Tf (, output changes on every heap-top update, not just count changes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 688.4 cm
+Q
+q
+1 0 0 1 42 660.4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 16.5 Tm /F1 9.5 Tf 13 TL (If ties at the same coordinate need special handling \(e.g. does a meeting ending at 10 conflict with one starting at 10?\),) Tj T* (always decide this explicitly in your sort comparator \227 it's the most common sweep-line bug.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 42 632.4 cm
+q
+.086275 .129412 .243137 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (11. Comparison with Two Pointers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 46.8 401.1 cm
+q
+.168627 .176471 .258824 rg
+n 0 225.3 518.4 -22.9 re f*
+1 1 1 rg
+n 0 202.4 518.4 -48.1 re f*
+.968627 .968627 .984314 rg
+n 0 154.3 518.4 -35.4 re f*
+1 1 1 rg
+n 0 118.9 518.4 -35.4 re f*
+.968627 .968627 .984314 rg
+n 0 83.5 518.4 -35.4 re f*
+1 1 1 rg
+n 0 48.1 518.4 -48.1 re f*
+1 1 1 rg
+BT /F2 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 220.3 cm
+Q
+q
+1 0 0 1 99.6 207.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Two Pointers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.6 207.4 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 3.2 Tm /F2 9.7 Tf 12.9 TL (Sweep Line) Tj T* ET
+Q
+Q
+0 0 0 rg
+BT /F1 9.5 Tf 12 TL ET
+q
+1 0 0 1 6 184.7 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Core idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 172 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Two indices moving toward/along a single) Tj T* (sorted array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.6 159.3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.6 Tm /F1 9.5 Tf 12.7 TL (One \(conceptual\) pointer moving through) Tj T* (sorted events derived from multiple) Tj T* (intervals/points) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 136.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (State tracked) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 123.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Usually a running sum/comparison between two) Tj T* (values) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.6 123.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL -0.051857 Tw (Running count, active set, or heap of "currently) Tj T* 0 Tw (open" items) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 101.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Typical output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 101.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Pair/triplet, boolean, or a single optimal value) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.6 88.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Count of overlaps, min resources, or) Tj T* (reconstructed shape) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 65.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Data shape) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 65.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (Flat array) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.6 53.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.9 Tm /F1 9.5 Tf 12.7 TL (Intervals, points, or ranges \(2 numbers per) Tj T* (item\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 30.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (When they overlap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 99.6 5 cm
+q
+BT 1 0 0 1 0 28.6 Tm 12.7 TL /F1 9.5 Tf 0 0 0 rg (Type A sweep ) Tj /F3 9.5 Tf (is) Tj /F1 9.5 Tf ( two pointers, just over two) Tj T* (separate sorted arrays \(starts, ends\) instead of) Tj T* (one array from both ends) Tj T* ET
+Q
+Q
+q
+1 0 0 1 315.6 30.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.2 Tm /F1 9.5 Tf 12.7 TL (\227) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.5 w
+n 0 225.3 m 518.4 225.3 l S
+n 0 0 m 518.4 0 l S
+n 0 0 m 0 225.3 l S
+n 518.4 0 m 518.4 225.3 l S
+n 0 202.4 m 518.4 202.4 l S
+n 0 154.3 m 518.4 154.3 l S
+n 0 118.9 m 518.4 118.9 l S
+n 0 83.5 m 518.4 83.5 l S
+n 0 48.1 m 518.4 48.1 l S
+n 93.6 0 m 93.6 225.3 l S
+n 309.6 0 m 309.6 225.3 l S
+Q
+Q
+Q
+q
+1 0 0 1 42 393.1 cm
+Q
+q
+1 0 0 1 42 365.1 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 16.5 Tm /F1 9.5 Tf 13 TL (Sweep line is often thought of as \223two pointers generalized to events with a start and an end,\224 which is why Type A above) Tj T* (looks almost identical to a two-pointer template.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000148 00000 n 
+0000000197 00000 n 
+0000000462 00000 n 
+0000004155 00000 n 
+0000004262 00000 n 
+0000004369 00000 n 
+0000004481 00000 n 
+0000004596 00000 n 
+0000004674 00000 n 
+0000004780 00000 n 
+0000005048 00000 n 
+0000011527 00000 n 
+0000011635 00000 n 
+0000011903 00000 n 
+0000014295 00000 n 
+0000014403 00000 n 
+0000014671 00000 n 
+0000017814 00000 n 
+0000017922 00000 n 
+0000018190 00000 n 
+0000024721 00000 n 
+0000024829 00000 n 
+0000025097 00000 n 
+0000029756 00000 n 
+trailer
+<<
+/Size 27
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+29864
+%%EOF

@@ -1,0 +1,1752 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 12 0 R 15 0 R 18 0 R 21 0 R 24 0 R 27 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4705
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 713.6 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 -2 Tm /F2 24 Tf 22 TL 156.66 0 Td (Sliding Window) Tj T* -156.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 697.6 cm
+q
+.4 .4 .4 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Complete Guide) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 682.85 cm
+q
+.75 w
+1 J
+.6 .6 .6 RG
+n 0 0 m 492 0 l S
+Q
+Q
+q
+1 0 0 1 60 642.85 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (1. What is it?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 591.35 cm
+q
+BT 1 0 0 1 0 33.5 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Sliding window is a technique where you maintain a ) Tj /F2 10 Tf (contiguous range) Tj /F1 10 Tf ( ) Tj /F3 10 Tf ([left, right]) Tj /F1 10 Tf ( over an array or) Tj T* (string, expanding it \(moving ) Tj /F3 10 Tf (right) Tj /F1 10 Tf (\) and shrinking it \(moving ) Tj /F3 10 Tf (left) Tj /F1 10 Tf (\) based on some condition, instead of) Tj T* (re-scanning every possible subarray/substring from scratch.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 554.35 cm
+q
+BT 1 0 0 1 0 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (It's really a specialized case of the same-direction two-pointer pattern, applied specifically to ) Tj /F2 10 Tf (contiguous) Tj T* (ranges) Tj /F1 10 Tf ( rather than arbitrary index pairs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 514.35 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (2. Why is it used?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 477.35 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 477.35 cm
+q
+BT 1 0 0 1 14 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Avoids re-computing a subarray's sum/count/frequency from scratch for every window \(O\(n) Tj /F1 8 Tf 5 Ts (2) Tj /F1 10 Tf 0 Ts (\) or O\(n) Tj /F1 8 Tf 5 Ts (3) Tj /F1 10 Tf 0 Ts (\)) Tj T* (brute force ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( O\(n\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 444.35 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 444.35 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 19 Tm /F1 10 Tf 14.5 TL (The window's state \(sum, character counts, distinct count\) is updated incrementally as it slides \227 add) Tj T* (what enters, remove what leaves) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 411.35 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 411.35 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 19 Tm /F1 10 Tf 14.5 TL (Works because of monotonicity: as the window grows, the property you're tracking changes predictably,) Tj T* (so you never need to re-examine discarded parts) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 371.35 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (3. Where is it used?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 334.35 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 334.35 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 19 Tm /F1 10 Tf 14.5 TL (Longest/shortest substring with a condition \(no repeating characters, at most K distinct, contains all) Tj T* (characters of another string\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 315.85 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 2.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 315.85 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4.5 Tm /F1 10 Tf 14.5 TL (Maximum/minimum sum subarray of size K, or with a sum constraint) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 297.35 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 2.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 297.35 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4.5 Tm /F1 10 Tf 14.5 TL (Longest subarray with at most K zeros/replacements \(flip problems\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 278.85 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 2.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 278.85 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4.5 Tm /F1 10 Tf 14.5 TL (Anagram / permutation detection in a string) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 260.35 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 2.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 260.35 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4.5 Tm /F1 10 Tf 14.5 TL (Minimum window substring \(shortest window containing all of a target's characters\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 241.85 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 2.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 241.85 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4.5 Tm /F1 10 Tf 14.5 TL (Fixed-size window problems \(moving average, max in sliding window of size K\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 223.35 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 2.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 223.35 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 4.5 Tm /F1 10 Tf 14.5 TL (Count subarrays satisfying an exact condition \(often via "at most K" ) Tj /F4 10 Tf 14.5 TL (-) Tj /F1 10 Tf 14.5 TL ( "at most K-1" trick\)) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Symbol
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 14 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6123
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 713.6 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (4. How to identify a Sliding Window problem \(pattern triggers\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 75.6 460.1 cm
+q
+.168627 .168627 .168627 rg
+n 0 245.5 460.8 -24 re f*
+.956863 .941176 .94902 rg
+n 0 184.5 460.8 -24.5 re f*
+.956863 .941176 .94902 rg
+n 0 135.5 460.8 -24.5 re f*
+.956863 .941176 .94902 rg
+n 0 74 460.8 -37 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 8 227.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Signal in the problem statement) Tj T* ET
+Q
+Q
+q
+1 0 0 1 224 227.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (What it suggests) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 203 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (\223subarray\224 / \223substring\224 \(contiguous!\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 224 190.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (Strong signal \227 sliding window operates only on) Tj T* (contiguous ranges) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 166 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (\223longest/shortest ... satisfying condition\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 224 166 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Variable-size window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 141.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (\223of size K\224 / \223window of size K\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 224 141.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Fixed-size window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 117 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (\223at most K distinct\224, \223no more than K\224, \223at least K\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 224 117 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Variable window with a shrink condition) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 80 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (\223contains all characters of\224, \223anagram of\224,) Tj T* (\223permutation of\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 224 80 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (Frequency-map window \(often fixed size for) Tj T* (permutation, variable for min window\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 43 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (\223sum equals/at least/at most target\224 over a) Tj T* (subarray) Tj T* ET
+Q
+Q
+q
+1 0 0 1 224 43 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (Sum-tracking window \(only works cleanly with) Tj T* (non-negative numbers\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 6 cm
+q
+BT 1 0 0 1 0 15.8 Tm 12.5 TL /F1 9.2 Tf 0 0 0 rg (Brute force would be O\(n) Tj /F1 7.36 Tf 4.6 Ts (2) Tj /F1 9.2 Tf 0 Ts (\) checking every) Tj T* (subarray) Tj T* ET
+Q
+Q
+q
+1 0 0 1 224 18.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Sliding window collapses it to O\(n\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.733333 .733333 .733333 RG
+.5 w
+n 0 245.5 m 460.8 245.5 l S
+n 0 0 m 460.8 0 l S
+n 0 0 m 0 245.5 l S
+n 460.8 0 m 460.8 245.5 l S
+n 0 221.5 m 460.8 221.5 l S
+n 0 184.5 m 460.8 184.5 l S
+n 0 160 m 460.8 160 l S
+n 0 135.5 m 460.8 135.5 l S
+n 0 111 m 460.8 111 l S
+n 0 74 m 460.8 74 l S
+n 0 37 m 460.8 37 l S
+n 216 0 m 216 245.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 450.1 cm
+Q
+q
+1 0 0 1 60 406.6 cm
+q
+BT 1 0 0 1 0 33.5 Tm 14.5 TL /F2 10 Tf 0 0 0 rg (Paraphrase test:) Tj /F1 10 Tf ( If the problem can be rephrased as \223find the longest/shortest/count of contiguous ranges) Tj T* (where property P holds\224 \227 it's sliding window. If \223contiguous\224 doesn't apply \(any subset, not just adjacent) Tj T* (elements\), it's NOT sliding window \227 look at subsets/DP/backtracking instead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 340.6 cm
+q
+BT 1 0 0 1 0 48 Tm 14.5 TL /F2 10 Tf 0 0 0 rg (Important caveat:) Tj /F1 10 Tf ( sliding window with a simple expand/shrink works cleanly when the tracked quantity is) Tj T* /F2 10 Tf (monotonic) Tj /F1 10 Tf ( as the window grows \227 e.g., sum of non-negative numbers only increases as you add elements. If) Tj T* (negative numbers are allowed, growing the window doesn't monotonically increase the sum, so plain sliding) Tj T* (window breaks \227 look at prefix sums + hashmap instead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 300.6 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (5. Can you tell from constraints alone?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 278.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F2 10 Tf 14.5 TL (Yes:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 241.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 241.1 cm
+q
+BT 1 0 0 1 14 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (n up to 10) Tj /F1 8 Tf 5 Ts (5) Tj /F1 10 Tf 0 Ts (\22610) Tj /F1 8 Tf 5 Ts (6) Tj /F1 10 Tf 0 Ts ( with an expected O\(n\) or O\(n log n\) solution, and the problem mentions) Tj T* (\223subarray\224/\223substring\224 ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( sliding window is a prime candidate over brute force.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 208.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 19 Tm /F1 10 Tf 14.5 TL (If all values are non-negative \(sums, counts, positive array elements\) ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( sum/count-based sliding window) Tj T* (is safe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 175.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 175.1 cm
+q
+BT 1 0 0 1 14 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (If negative numbers are present and the problem is about ) Tj /F2 10 Tf (sum) Tj /F1 10 Tf (, sliding window alone won't work \227 that's) Tj T* (usually prefix sum + hashmap instead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 142.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 142.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 14 19 Tm /F1 10 Tf 14.5 TL (If the alphabet/character set is small and bounded \(e.g., lowercase letters only\) ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( frequency-array) Tj T* (window \(size 26\) instead of a hashmap, for O\(1\) per-character updates.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4623
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 713.6 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (6. Intuition / Rationale) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 647.6 cm
+q
+BT 1 0 0 1 0 48 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (The window is safe to slide because of a ) Tj /F2 10 Tf (monotonic invariant) Tj /F1 10 Tf (, exactly like two pointers: once the window's) Tj T* (property becomes invalid \(e.g., sum too large, too many distinct characters\), shrinking from the left is the ) Tj /F5 10 Tf (only) Tj /F1 10 Tf  T* -0.041765 Tw (useful move \227 you never need to re-check a left boundary you've already advanced past, because any window) Tj T* 0 Tw (starting there was already accounted for as valid or invalid.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 610.6 cm
+q
+BT 1 0 0 1 0 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Each element is added to the window exactly once \(when ) Tj /F3 10 Tf (right) Tj /F1 10 Tf ( passes it\) and removed exactly once \(when) Tj T* /F3 10 Tf (left) Tj /F1 10 Tf ( passes it\), giving O\(n\) total work instead of O\(n\) work repeated for O\(n\) different window start points.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 570.6 cm
+q
+BT 1 0 0 1 0 7 Tm 22 TL /F2 15 Tf .168627 .168627 .168627 rg (7. Time & Space Complexity \(generic\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 548.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 2.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 548.1 cm
+q
+BT 1 0 0 1 14 4.5 Tm 14.5 TL /F2 10 Tf 0 0 0 rg (Time:) Tj /F1 10 Tf ( O\(n\) \227 each pointer moves forward at most n times total) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 515.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 -2 17 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 72 515.1 cm
+q
+BT 1 0 0 1 14 19 Tm 14.5 TL /F2 10 Tf 0 0 0 rg (Space:) Tj /F1 10 Tf ( O\(1\) for simple sum tracking, O\(k\) or O\(26\)/O\(128\) for a frequency map/array \(k = distinct) Tj T* (elements tracked\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 475.1 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (8. Types of Sliding Window \(with Java templates\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 445.1 cm
+q
+.290196 .145098 .188235 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type A \227 Fixed-Size Window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 424.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10 Tf 14.5 TL (Used for: max sum subarray of size K, moving average, max/min in window of size K \(with a deque\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 75.6 288.4 cm
+q
+.960784 .960784 .960784 rg
+n 0 128.2 460.8 -128.2 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 8 cm
+%PreformattedPara
+.101961 .101961 .101961 rg
+BT 1 0 0 1 6 104.6 Tm /F3 7.6 Tf 10.2 TL (public int maxSumFixedWindow\(int[] nums, int k\) {) Tj T* (    int windowSum = 0;) Tj T* (    for \(int i = 0; i < k; i++\) windowSum += nums[i]; // build initial window) Tj T* (    int maxSum = windowSum;) Tj T*  T* (    for \(int right = k; right < nums.length; right++\) {) Tj T* (        windowSum += nums[right] - nums[right - k]; // slide: add new, remove oldest) Tj T* (        maxSum = Math.max\(maxSum, windowSum\);) Tj T* (    }) Tj T* (    return maxSum;) Tj T* (}) Tj T* ET
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.75 w
+n 0 128.2 m 460.8 128.2 l S
+n 0 0 m 460.8 0 l S
+n 0 0 m 0 128.2 l S
+n 460.8 0 m 460.8 128.2 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 258.4 cm
+q
+.290196 .145098 .188235 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type B \227 Variable-Size Window \(shrink while invalid\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 237.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10 Tf 14.5 TL (Used for: longest subarray with sum ) Tj /F4 10 Tf 14.5 TL (\243) Tj /F1 10 Tf 14.5 TL ( K, longest substring with at most K distinct characters.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 75.6 91.5 cm
+q
+.960784 .960784 .960784 rg
+n 0 138.4 460.8 -138.4 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 8 cm
+%PreformattedPara
+.101961 .101961 .101961 rg
+BT 1 0 0 1 6 114.8 Tm /F3 7.6 Tf 10.2 TL (public int longestSubarrayAtMostK\(int[] nums, int k\) {) Tj T* (    int left = 0, sum = 0, maxLen = 0;) Tj T* (    for \(int right = 0; right < nums.length; right++\) {) Tj T* (        sum += nums[right];) Tj T* (        while \(sum > k\) {              // shrink while window is invalid) Tj T* (            sum -= nums[left];) Tj T* (            left++;) Tj T* (        }) Tj T* (        maxLen = Math.max\(maxLen, right - left + 1\); // window is valid here) Tj T* (    }) Tj T* (    return maxLen;) Tj T* (}) Tj T* ET
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.75 w
+n 0 138.4 m 460.8 138.4 l S
+n 0 0 m 460.8 0 l S
+n 0 0 m 0 138.4 l S
+n 460.8 0 m 460.8 138.4 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 20 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 3881
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 699.6 cm
+q
+.290196 .145098 .188235 rg
+BT 1 0 0 1 0 23.5 Tm /F2 12.5 Tf 18 TL (Type C \227 Variable-Size Window \(expand while invalid, shrink while valid \227) Tj T* (\223shortest\224 variant\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 679.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10 Tf 14.5 TL (Used for: minimum window substring, smallest subarray with sum ) Tj /F4 10 Tf 14.5 TL (\263) Tj /F1 10 Tf 14.5 TL ( target.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 75.6 532.7 cm
+q
+.960784 .960784 .960784 rg
+n 0 138.4 460.8 -138.4 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 8 cm
+%PreformattedPara
+.101961 .101961 .101961 rg
+BT 1 0 0 1 6 114.8 Tm /F3 7.6 Tf 10.2 TL (public int minSubArrayLen\(int target, int[] nums\) {) Tj T* (    int left = 0, sum = 0, minLen = Integer.MAX_VALUE;) Tj T* (    for \(int right = 0; right < nums.length; right++\) {) Tj T* (        sum += nums[right];) Tj T* (        while \(sum >= target\) {  // shrink while still valid, to find the minimum) Tj T* (            minLen = Math.min\(minLen, right - left + 1\);) Tj T* (            sum -= nums[left];) Tj T* (            left++;) Tj T* (        }) Tj T* (    }) Tj T* (    return minLen == Integer.MAX_VALUE ? 0 : minLen;) Tj T* (}) Tj T* ET
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.75 w
+n 0 138.4 m 460.8 138.4 l S
+n 0 0 m 460.8 0 l S
+n 0 0 m 0 138.4 l S
+n 460.8 0 m 460.8 138.4 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 502.7 cm
+q
+.290196 .145098 .188235 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type D \227 Frequency Map Window \(character/element matching\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 482.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10 Tf 14.5 TL (Used for: minimum window substring, find all anagrams, permutation in string.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 75.6 142 cm
+q
+.960784 .960784 .960784 rg
+n 0 332.2 460.8 -332.2 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 8 cm
+%PreformattedPara
+.101961 .101961 .101961 rg
+BT 1 0 0 1 6 308.6 Tm /F3 7.6 Tf 10.2 TL (public String minWindow\(String s, String t\) {) Tj T* (    if \(s.isEmpty\(\) || t.isEmpty\(\)\) return "";) Tj T* (    Map<Character, Integer> need = new HashMap<>\(\);) Tj T* (    for \(char c : t.toCharArray\(\)\) need.merge\(c, 1, Integer::sum\);) Tj T*  T* (    Map<Character, Integer> window = new HashMap<>\(\);) Tj T* (    int have = 0, needCount = need.size\(\);) Tj T* (    int left = 0, bestLen = Integer.MAX_VALUE, bestStart = 0;) Tj T*  T* (    for \(int right = 0; right < s.length\(\); right++\) {) Tj T* (        char c = s.charAt\(right\);) Tj T* (        window.merge\(c, 1, Integer::sum\);) Tj T* (        if \(need.containsKey\(c\) && window.get\(c\).intValue\(\) == need.get\(c\).intValue\(\)\) {) Tj T* (            have++; // this character's frequency requirement is now fully satisfied) Tj T* (        }) Tj T*  T* (        while \(have == needCount\) { // window is valid, try to shrink from the left) Tj T* (            if \(right - left + 1 < bestLen\) {) Tj T* (                bestLen = right - left + 1;) Tj T* (                bestStart = left;) Tj T* (            }) Tj T* (            char leftChar = s.charAt\(left\);) Tj T* (            window.put\(leftChar, window.get\(leftChar\) - 1\);) Tj T* (            if \(need.containsKey\(leftChar\) && window.get\(leftChar\) < need.get\(leftChar\)\) {) Tj T* (                have--; // shrinking broke the requirement for this character) Tj T* (            }) Tj T* (            left++;) Tj T* (        }) Tj T* (    }) Tj T* (    return bestLen == Integer.MAX_VALUE ? "" : s.substring\(bestStart, bestStart + bestLen\);) Tj T* (}) Tj T* ET
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.75 w
+n 0 332.2 m 460.8 332.2 l S
+n 0 0 m 460.8 0 l S
+n 0 0 m 0 332.2 l S
+n 460.8 0 m 460.8 332.2 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 23 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 1910
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 717.6 cm
+q
+.290196 .145098 .188235 rg
+BT 1 0 0 1 0 5.5 Tm /F2 12.5 Tf 18 TL (Type E \227 \223At Most K\224 Subtraction Trick \(count exact-K subarrays\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 697.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.5 Tm /F1 10 Tf 14.5 TL (Used for: count subarrays with exactly K distinct elements, exactly K odd numbers, etc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 75.6 469.1 cm
+q
+.960784 .960784 .960784 rg
+n 0 220 460.8 -220 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 8 cm
+%PreformattedPara
+.101961 .101961 .101961 rg
+BT 1 0 0 1 6 196.4 Tm /F3 7.6 Tf 10.2 TL (public int subarraysWithExactlyKDistinct\(int[] nums, int k\) {) Tj T* (    return atMostKDistinct\(nums, k\) - atMostKDistinct\(nums, k - 1\);) Tj T* (}) Tj T*  T* (private int atMostKDistinct\(int[] nums, int k\) {) Tj T* (    if \(k < 0\) return 0;) Tj T* (    Map<Integer, Integer> count = new HashMap<>\(\);) Tj T* (    int left = 0, result = 0;) Tj T* (    for \(int right = 0; right < nums.length; right++\) {) Tj T* (        count.merge\(nums[right], 1, Integer::sum\);) Tj T* (        while \(count.size\(\) > k\) {) Tj T* (            int leftVal = nums[left];) Tj T* (            count.put\(leftVal, count.get\(leftVal\) - 1\);) Tj T* (            if \(count.get\(leftVal\) == 0\) count.remove\(leftVal\);) Tj T* (            left++;) Tj T* (        }) Tj T* (        result += right - left + 1; // every window ending at `right` with ) Tj /F4 7.6 Tf 10.2 TL (\243) Tj /F3 7.6 Tf 10.2 TL (k distinct counts) Tj T* (    }) Tj T* (    return result;) Tj T* (}) Tj T* ET
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.75 w
+n 0 220 m 460.8 220 l S
+n 0 0 m 460.8 0 l S
+n 0 0 m 0 220 l S
+n 460.8 0 m 460.8 220 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+23 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+24 0 obj
+<<
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 26 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+25 0 obj
+<<
+/Length 6988
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 713.6 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (9. Comparison of the patterns) Tj T* ET
+Q
+Q
+q
+1 0 0 1 75.6 484.1 cm
+q
+.168627 .168627 .168627 rg
+n 0 221.5 460.8 -24 re f*
+.956863 .941176 .94902 rg
+n 0 160.5 460.8 -37 re f*
+.956863 .941176 .94902 rg
+n 0 74 460.8 -37 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 8 203.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Type) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105.2 203.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Window behavior) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242 203.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Typical trigger words) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.2 203.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Complexity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 179 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (A. Fixed-size) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105.2 166.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (slides one step at a time,) Tj T* (constant width) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242 179 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (\223size K\224, \223moving average\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.2 179 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 129.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (B. Variable \227) Tj T* (longest under a cap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105.2 129.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (expand right, shrink while) Tj T* (invalid) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242 142 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (\223longest ... at most K\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.2 142 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 80 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.3 Tm /F1 9.2 Tf 12.5 TL (C. Variable \227) Tj T* (shortest meeting a) Tj T* (target) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105.2 92.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (expand right, shrink while still) Tj T* (valid) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242 92.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (\223shortest/minimum ... at) Tj T* (least\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.2 105 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 55.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (D. Frequency map) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105.2 43 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (tracks character/element) Tj T* (counts, not just a sum) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242 43 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (\223anagram\224, \223permutation\224,) Tj T* (\223contains all of t\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.2 43 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (O\(n\) \(O\(26\) or) Tj T* (O\(k\) per step\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (E. At-most-K) Tj T* (subtraction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 105.2 18.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (two calls to Type B variant) Tj T* ET
+Q
+Q
+q
+1 0 0 1 242 18.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (\223exactly K distinct/odd/etc.\224) Tj T* ET
+Q
+Q
+q
+1 0 0 1 375.2 18.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (O\(n\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.733333 .733333 .733333 RG
+.5 w
+n 0 221.5 m 460.8 221.5 l S
+n 0 0 m 460.8 0 l S
+n 0 0 m 0 221.5 l S
+n 460.8 0 m 460.8 221.5 l S
+n 0 197.5 m 460.8 197.5 l S
+n 0 160.5 m 460.8 160.5 l S
+n 0 123.5 m 460.8 123.5 l S
+n 0 74 m 460.8 74 l S
+n 0 37 m 460.8 37 l S
+n 97.2 0 m 97.2 221.5 l S
+n 234 0 m 234 221.5 l S
+n 367.2 0 m 367.2 221.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 474.1 cm
+Q
+q
+1 0 0 1 60 430.6 cm
+q
+BT 1 0 0 1 0 33.5 Tm 14.5 TL /F2 10 Tf 0 0 0 rg (Key distinguishing question:) Tj /F1 10 Tf ( Is the window always the same width \() Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( A\), am I maximizing width under a) Tj T* (constraint \() Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( B\), minimizing width while meeting a threshold \() Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( C\), matching character frequencies \() Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( D\), or) Tj T* (counting subarrays with an EXACT property \() Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( E, via the at-most trick\)?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 390.6 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (10. Quick decision checklist \(use this in an interview\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 368.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm (1) Tj T* ET
+Q
+q
+1 0 0 1 74 368.1 cm
+q
+BT 1 0 0 1 14 4.5 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Is the window a fixed size K? ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( ) Tj /F2 10 Tf (Type A) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 335.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 17 Tm (2) Tj T* ET
+Q
+q
+1 0 0 1 74 335.1 cm
+q
+BT 1 0 0 1 14 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Am I looking for the longest window that stays valid \(sum ) Tj /F4 10 Tf 14.5 TL (\243) Tj /F1 10 Tf 14.5 TL ( K, ) Tj /F4 10 Tf 14.5 TL (\243) Tj /F1 10 Tf 14.5 TL (K distinct\)? ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( ) Tj /F2 10 Tf (Type B) Tj /F1 10 Tf ( \(shrink while) Tj T* (invalid\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 302.1 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 17 Tm (3) Tj T* ET
+Q
+q
+1 0 0 1 74 302.1 cm
+q
+BT 1 0 0 1 14 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Am I looking for the shortest window that becomes valid \(sum ) Tj /F4 10 Tf 14.5 TL (\263) Tj /F1 10 Tf 14.5 TL ( target, contains all of t\)? ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( ) Tj /F2 10 Tf (Type C) Tj /F1 10 Tf  T* (\(shrink while valid, to minimize\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 283.6 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 2.5 Tm (4) Tj T* ET
+Q
+q
+1 0 0 1 74 283.6 cm
+q
+BT 1 0 0 1 14 4.5 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Do I need to track per-character/per-element frequency rather than just a sum/count? ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( ) Tj /F2 10 Tf (Type D) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 250.6 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 17 Tm (5) Tj T* ET
+Q
+q
+1 0 0 1 74 250.6 cm
+q
+BT 1 0 0 1 14 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Does the problem ask for an EXACT count/value rather than longest/shortest? ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( ) Tj /F2 10 Tf (Type E) Tj /F1 10 Tf (, compute) Tj T* (atMost\(k\) ) Tj /F4 10 Tf 14.5 TL (-) Tj /F1 10 Tf 14.5 TL ( atMost\(k-1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217.6 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 0 17 Tm (6) Tj T* ET
+Q
+q
+1 0 0 1 74 217.6 cm
+q
+BT 1 0 0 1 14 19 Tm 14.5 TL /F1 10 Tf 0 0 0 rg (Are negative numbers involved and the property is sum-based? ) Tj /F4 10 Tf 14.5 TL (\256) Tj /F1 10 Tf 14.5 TL ( ) Tj /F2 10 Tf (Not sliding window) Tj /F1 10 Tf ( \227 use prefix) Tj T* (sum + hashmap instead) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+26 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 29 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 4701
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 713.6 cm
+q
+.168627 .168627 .168627 rg
+BT 1 0 0 1 0 7 Tm /F2 15 Tf 22 TL (11. Comparison with Two Pointers, Sweep Line, and Greedy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.8 446.1 cm
+q
+.168627 .168627 .168627 rg
+n 0 259.5 482.4 -24 re f*
+.956863 .941176 .94902 rg
+n 0 186 482.4 -62 re f*
+.956863 .941176 .94902 rg
+n 0 74.5 482.4 -74.5 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 8 253.5 cm
+Q
+q
+1 0 0 1 83.6 241.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Two Pointers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 191.6 241.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Sliding Window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 299.6 241.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Sweep Line) Tj T* ET
+Q
+Q
+q
+1 0 0 1 393.2 241.5 cm
+q
+1 1 1 rg
+BT 1 0 0 1 0 2.8 Tm /F2 9.2 Tf 12 TL (Greedy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 217 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Core idea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.6 192 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.3 Tm /F1 9.2 Tf 12.5 TL (Two indices over one) Tj T* (array, often) Tj T* (converging from ends) Tj T* ET
+Q
+Q
+q
+1 0 0 1 191.6 192 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.3 Tm /F1 9.2 Tf 12.5 TL (A contiguous range) Tj T* ([left, right] that) Tj T* (expands/shrinks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 299.6 192 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.3 Tm /F1 9.2 Tf 12.5 TL (Process sorted) Tj T* (events, track) Tj T* (running state) Tj T* ET
+Q
+Q
+q
+1 0 0 1 393.2 204.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (Locally optimal) Tj T* (choice each step) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 167.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Range shape) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.6 130 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 40.8 Tm /F1 9.2 Tf 12.5 TL (Any two positions \(not) Tj T* (necessarily) Tj T* (contiguous between) Tj T* (them\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 191.6 142.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.3 Tm /F1 9.2 Tf 12.5 TL (Always contiguous \227) Tj T* (the range itself is the) Tj T* (answer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 299.6 155 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (Points/intervals) Tj T* (sorted by position) Tj T* ET
+Q
+Q
+q
+1 0 0 1 393.2 155 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (N/A \227 a decision) Tj T* (strategy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 105.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Typical output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.6 105.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Pair/triplet, boolean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 191.6 80.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28.3 Tm /F1 9.2 Tf 12.5 TL (Length, count, or) Tj T* (substring/subarray) Tj T* (itself) Tj T* ET
+Q
+Q
+q
+1 0 0 1 299.6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (Count of overlaps,) Tj T* (min resources) Tj T* ET
+Q
+Q
+q
+1 0 0 1 393.2 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 15.8 Tm /F1 9.2 Tf 12.5 TL (Optimal count/cost/) Tj T* (sequence) Tj T* ET
+Q
+Q
+q
+1 0 0 1 8 56 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (Relationship) Tj T* ET
+Q
+Q
+q
+1 0 0 1 83.6 18.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 40.8 Tm /F1 9.2 Tf 12.5 TL (Sliding window IS a) Tj T* (two-pointer pattern,) Tj T* (specialized to) Tj T* (contiguous ranges) Tj T* ET
+Q
+Q
+q
+1 0 0 1 191.6 56 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.3 Tm /F1 9.2 Tf 12.5 TL (\227) Tj T* ET
+Q
+Q
+q
+1 0 0 1 299.6 6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 53.3 Tm /F1 9.2 Tf 12.5 TL (Fixed-size) Tj T* (sweep-window) Tj T* (over event time is) Tj T* (conceptually) Tj T* (similar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 393.2 18.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 40.8 Tm /F1 9.2 Tf 12.5 TL (Greedy criterion) Tj T* (often decides how) Tj T* (the window should) Tj T* (shrink/expand) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.733333 .733333 .733333 RG
+.5 w
+n 0 259.5 m 482.4 259.5 l S
+n 0 0 m 482.4 0 l S
+n 0 0 m 0 259.5 l S
+n 482.4 0 m 482.4 259.5 l S
+n 0 235.5 m 482.4 235.5 l S
+n 0 186 m 482.4 186 l S
+n 0 124 m 482.4 124 l S
+n 0 74.5 m 482.4 74.5 l S
+n 75.6 0 m 75.6 259.5 l S
+n 183.6 0 m 183.6 259.5 l S
+n 291.6 0 m 291.6 259.5 l S
+n 385.2 0 m 385.2 259.5 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 436.1 cm
+Q
+q
+1 0 0 1 60 378.1 cm
+q
+BT 1 0 0 1 0 48 Tm 14.5 TL /F2 10 Tf 0 0 0 rg (The cleanest mental model:) Tj /F1 10 Tf ( two pointers is the general family \(opposite-direction, same-direction, merge,) Tj T* (fast/slow\). Sliding window is specifically the \223same-direction, contiguous range\224 member of that family, applied) Tj T* (whenever the answer must be a ) Tj /F5 10 Tf (contiguous) Tj /F1 10 Tf ( piece of the array/string. If contiguity doesn't matter, you're back to) Tj T* (general two pointers or a different technique entirely.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 8 Tf
+9.6 TL
+ET
+0.4 g
+BT
+1 0 0 1 224.36 18 Tm
+(\251 Vidya Srinivasa Kesarla\056 All rights reserved\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 30
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000155 00000 n 
+0000000204 00000 n 
+0000000469 00000 n 
+0000005226 00000 n 
+0000005333 00000 n 
+0000005440 00000 n 
+0000005552 00000 n 
+0000005657 00000 n 
+0000005735 00000 n 
+0000005851 00000 n 
+0000006119 00000 n 
+0000012295 00000 n 
+0000012403 00000 n 
+0000012671 00000 n 
+0000017347 00000 n 
+0000017455 00000 n 
+0000017723 00000 n 
+0000021657 00000 n 
+0000021765 00000 n 
+0000022033 00000 n 
+0000023996 00000 n 
+0000024104 00000 n 
+0000024372 00000 n 
+0000031413 00000 n 
+0000031521 00000 n 
+0000031789 00000 n 
+0000036543 00000 n 
+trailer
+<<
+/Size 30
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+36651
+%%EOF
